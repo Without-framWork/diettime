@@ -1,0 +1,212 @@
+.form-group label { font-weight: 400;  color: #777;; ; font-size: 14px;  }
+
+.form-group input{
+    height: 32px;
+    border-radius: 0;
+    background:none;
+    border: 1px solid #ccc; 
+    box-shadow: none;
+    color: #555;
+    padding: 0 15px 0px;
+    margin-bottom: 0;
+		margin-bottom: 15px;
+		border-radius: 3px;
+		font-size: 14px;
+}
+
+ 
+.form-group input.form-control:focus,
+.form-group textarea.form-control:focus {
+	border-color: #24cd77;
+		box-shadow: none;
+
+}
+
+.form-check {
+	position: relative;
+	display: block;
+	padding-left: 20px;
+	line-height: 28px;
+}
+.form-check-input {
+	position: absolute;
+	margin-top: 8px;
+	margin-left: -20px;
+}
+
+.radio-group{
+margin-bottom: 15px;
+
+}
+.form-group textarea.form-control {  
+    min-height: 150px;
+    max-width: 100%;
+    border-radius: 12px;;
+    background:none;
+    border: 1px solid #ccc;
+    position:relative;
+    padding:15px;
+    box-shadow: none;
+    color: #555;;
+		margin-bottom: 15px;
+		border-radius: 25px;
+		font-size: 14px;
+}
+
+.form-control {
+
+    &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color: #71768a;
+
+        opacity:  1;
+        font-size: 12px;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:   #71768a;
+        opacity:  1;
+
+        font-size: 12px;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:   #71768a;
+        opacity:  1;
+        font-size: 12px;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color:    #71768a;
+        opacity:  1;
+        font-size: 12px;
+    }
+    &:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+        color:    #71768a;
+        opacity:  1;
+        font-size: 12px;
+    }
+ 
+
+} 
+/*
+.select {
+    position: relative;
+    display: block;
+}
+.select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding-top:5px;
+    padding-bottom:5px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    color: #120e31;
+    border: 1px solid #9d2f4c;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 20px;
+}
+.select select::-ms-expand {
+    display: none;
+}
+.select select:hover,
+.select select:focus {
+    color: #000;
+
+}
+.select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.select__arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+  //  border-style: solid;
+  //  border-width: 8px 5px 0 5px;
+  //  border-color: #7b7b7b transparent transparent transparent;
+  transform: rotate(90deg);
+  font-size: 10px;
+  color: #9d2f4c;
+}
+.select select:hover ~ .select__arrow,
+.select select:focus ~ .select__arrow {
+    border-top-color: #000;
+}
+.select select:disabled ~ .select__arrow {
+    border-top-color: #ccc;
+}
+*/
+
+
+.select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+	margin-bottom:5px;
+
+	border-radius: 10px;
+	
+}
+
+.select select {
+  display: inline-block;
+  width: 100%;
+	padding: 0 15px;
+	line-height: 43px;
+	border:1px solid #ccc;
+	height: 45px;
+  cursor: pointer;
+  color: #7b7b7b;
+  // border: 0;
+  border-radius: 10px;
+  outline: 0;
+  background: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	opacity: 1;
+}
+
+.select select::-ms-expand {
+  display: none;
+}
+
+.select select:hover,
+.select select:focus {
+  color: #000;
+  background: #fff;
+}
+
+.select select:disabled {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.select__arrow {
+  position: absolute;
+	top: 20px;
+	left: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-width: 8px 5px 0 5px;
+  border-style: solid;
+  border-color: #ccc transparent transparent transparent;
+}
+.select select:hover ~ .select__arrow,
+.select select:focus ~ .select__arrow {
+  border-top-color: #000;
+}
+
+.select select:disabled ~ .select__arrow {
+  border-top-color: #ccc;
+}
+ 

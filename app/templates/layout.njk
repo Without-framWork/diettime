@@ -1,0 +1,46 @@
+<!-- layout.njk -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>سنقر</title>
+    <link rel="icon" href="favicon.ico">
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/bootstrap-rtl.css"> 
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">  
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--endbuild-->
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+		<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  {% include "partials/header.njk" %}
+  {#% include "partials/navigation.njk" %#}
+
+  {# <main id="main" class="container"> #}
+    {% block content %}
+    {% endblock %}
+  {# </main>   #}
+
+  {% include "partials/footer.njk" %}
+	<!--build:js js/main.min.js -->
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	<!-- Magnific Popup core JS file -->
+	{# <script src="assets/js/jquery.magnific-popup.min.js"></script> #}
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/main.js"></script>  
+    <script>
+      feather.replace()
+    </script>
+	<!--endbuild-->
+</body>
+</html>

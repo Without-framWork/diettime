@@ -1,0 +1,103 @@
+//accoutn
+.account-wrap {
+	padding: 50px 0;
+
+	h3 {
+		// text-align: center;
+		font-weight: 300;
+		margin-bottom: 40px;
+	}
+
+	.signup-form {
+		padding-left: 100px;
+
+		.control {
+			margin-bottom: 30px;
+			a{
+				color: #003566;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.signin-form {
+		padding-left: 100px;
+
+		.control {
+			margin-bottom: 30px;
+		}
+	}
+
+	.btn-main {
+		margin-bottom: 40px;
+	}
+}
+
+.account-link{
+	p{
+		font-size: 16px;
+	}
+	a{
+		font-size: 16px;
+		color: #FFC300;
+		margin-right: 5px;
+	
+	}
+}
+
+
+.account-tabs {
+	padding: 0;
+
+	.nav-tabs {
+		border: none;
+
+	}
+
+	.nav-item {
+		font-size: 20px;
+		border: none;
+		margin-left: 50px;
+		display: inline-block;
+		margin-bottom: 50px;
+		color: #ADB5BD;
+		padding: 0;
+
+		&.active {
+			color: #001D3D;
+
+			.divider {
+				span {
+					background: #FEDD12;
+
+				}
+			}
+		}
+
+		.divider {
+			span {
+				display: inline-block;
+				height: 3px;
+				background: #ADB5BD;
+
+				border-radius: 4px;
+
+				&:nth-child(1) {
+					margin-left: 4%;
+					width: 10%;
+
+				}
+
+				&:nth-child(2) {
+					margin-left: 4%;
+					width: 12%;
+
+				}
+
+				&:nth-child(3) {
+					width: 60%;
+				}
+			}
+		}
+	}
+}

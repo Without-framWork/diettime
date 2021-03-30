@@ -1,0 +1,65 @@
+$font-path:        "../fonts/" !default;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('#{$font-path}roboto/RobotoRegular.eot');
+    src: url('#{$font-path}roboto/RobotoRegular.eot') format('embedded-opentype'),
+        url('#{$font-path}roboto/RobotoRegular.woff2') format('woff2'),
+        url('#{$font-path}roboto/RobotoRegular.woff') format('woff'),
+        url('#{$font-path}roboto/RobotoRegular.ttf') format('truetype'),
+        url('#{$font-path}roboto/RobotoRegular.svg#Roboto') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('#{$font-path}roboto/RobotoMedium.eot');
+    src: url('#{$font-path}roboto/RobotoMedium.eot') format('embedded-opentype'),
+        url('#{$font-path}roboto/RobotoMedium.woff2') format('woff2'),
+        url('#{$font-path}roboto/RobotoMedium.woff') format('woff'),
+        url('#{$font-path}roboto/RobotoMedium.ttf') format('truetype'),
+        url('#{$font-path}roboto/RobotoMedium.svg#Roboto') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('#{$font-path}roboto/RobotoBold.eot');
+    src: url('#{$font-path}roboto/RobotoBold.eot') format('embedded-opentype'),
+        url('#{$font-path}roboto/RobotoBold.woff2') format('woff2'),
+        url('#{$font-path}roboto/RobotoBold.woff') format('woff'),
+        url('#{$font-path}roboto/RobotoBold.ttf') format('truetype'),
+        url('#{$font-path}roboto/RobotoBold.svg#Roboto') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'dentiest';
+//   src:  url('#{$font-path}dentiest.eot?cmi0vl');
+//   src:  url('#{$font-path}dentiest.eot?cmi0vl#iefix') format('embedded-opentype'),
+//     url('#{$font-path}dentiest.ttf?cmi0vl') format('truetype'),
+//     url('#{$font-path}dentiest.woff?cmi0vl') format('woff'),
+//     url('#{$font-path}dentiest.svg?cmi0vl#dentiest') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dentiest' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}

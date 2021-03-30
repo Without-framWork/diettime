@@ -1,0 +1,138 @@
+.social-links{
+
+		&.social-sm{
+
+
+		}
+		list-style: none;
+
+    li{
+        display: inline-block;
+				position: relative;
+			
+			
+				text-align: center;
+        a{
+  
+						padding: 0px; 
+						
+            display: inline-block;
+            &:before {
+                transform: scale(0);
+                -ms-transform: scale(0);
+                -webkit-transform: scale(0);
+                content: '';
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                position: absolute;
+                border:2px solid #33ccff;
+                transition: all 265ms ease-out;
+                right: 0;
+                top: 0;
+            }
+            
+            i {
+                display: inline-block;
+                width: 40px;
+                line-height: 40px;
+                color: #1E1E1E;
+                font-size: 16px;
+								transition: all 265ms ease-out;
+								border-radius: 20px;
+								text-align: center;
+            }
+            &:hover i {
+                color: #fff;
+            }
+          
+        }
+        .facebook{
+					&:hover{
+						i{
+						color: $facebook-color;
+            }
+
+					}
+         
+        
+        }
+        .twitter{
+					&:hover{
+						i{
+							color: $twitter-color;
+            }
+
+					}
+   
+ 
+      
+        }
+        .youtube{
+					&:hover{
+						i{
+							color: $youtube-color;
+            }
+
+					}
+  
+       
+        }
+			}
+}
+    
+.social-links-sm{
+
+	
+		list-style: none;
+
+    li{
+        display: block;
+				position: relative;
+				line-height: 20px;
+				padding-bottom: 5px;
+		
+        a{
+						padding: 0px; 
+						display: inline-block;
+						font-size: 12px;
+						color: #666;
+						&:hover{
+							color: #00A6ED;
+						
+						}
+            
+            i {
+							margin-right: 6px;
+                display: inline-block;
+                width: 20px;
+                line-height: 20px;
+                color: #fff;
+                font-size: 12px;
+								transition: all 265ms ease-out;
+								border-radius: 20px;
+								text-align: center;
+            }
+            &:hover i {
+                color: #fff;
+            }
+          
+        }
+        .facebook{
+            i{
+							background-color: $facebook-color;
+            }
+        
+        }
+        .twitter{
+            i{
+							background-color: $twitter-color;
+            }      
+        }
+        .youtube{
+            i{
+							background-color: $youtube-color;
+            }
+        }
+			}
+}

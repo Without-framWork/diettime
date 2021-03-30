@@ -1,0 +1,106 @@
+.signin-card{
+	max-width: 500px;
+	margin: 100px auto;
+	border-radius: 15px;
+	padding:60px ;
+	// text-align: center;
+	box-shadow: 0px 5px 30px rgba(49, 56, 78, 0.1);
+}
+
+
+.contact-form{
+	max-width: 800px;
+	padding: 100px;
+	margin:  0 auto;
+
+
+	.form-group{
+		.form-control{
+			margin-bottom: 30px;
+
+		
+		}
+	}
+}
+
+.card-header{
+	background: none;
+	border: none;
+	margin-bottom: 30px;
+	padding: 0;
+	h2{
+		margin-bottom: 0px;
+	}
+}
+
+.form-group{
+	position: relative;
+	.form-control{
+		height: 45px;
+		border-radius: 25px;
+		padding: 0 15px 0px;
+		margin-bottom: 15px;
+	
+	}
+	textarea.form-control{
+		height: 200px;
+		padding: 25px;
+		border-radius: 25px;
+	}
+	// .btn{
+	// 	height: 50px;
+	// 	line-height: 50px;
+	// 	padding: 0 30px;
+	// 	border-radius: 25px;
+	// 	position: absolute;
+	// 	border: 1px solid #007bff;
+	// 	font-size: 14px;
+	// 	right: 0;
+	// 	top: 0;
+	// 	transition: all 500ms ease-in-out;
+	// 	&:hover{
+	// 		background: rgba(0, 0, 0, 0);
+	// 		border: 1px solid #007bff;
+	// 		color: #007bff;
+	// 	}
+
+	// }
+}
+
+
+.btn.btn-primary{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 30px;
+	border-radius: 10px;
+	border: 1px solid #007bff;
+	font-size: 14px;
+	right: 0;
+	top: 0;
+	min-width: 120px;
+	transition: all 500ms ease-in-out;
+	&:hover{
+		background: rgba(0, 0, 0, 0);
+		border: 1px solid #007bff;
+		color: #007bff;
+	}
+
+}
+
+
+/* 404  */ 
+
+.content-404{
+	padding: 150px 0;
+	text-align: center;
+	img{
+		margin-bottom: 30px;
+		max-width: 450px;
+	}
+	h2{
+		margin-bottom: 15[x];
+	}
+	span{
+		margin-bottom: 30px;
+	}
+}

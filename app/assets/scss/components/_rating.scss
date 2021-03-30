@@ -1,0 +1,24 @@
+// Rating Star 
+.stars {
+	background: url("../images/star.svg") repeat-x;
+	height: 15px;
+	width: 75px;
+	clear: both;
+	direction: ltr;
+	position: relative;
+	span.score {
+		display: block;
+		background: url("../images/stars.svg") repeat-x;
+		height: 15px;
+		width: 75px;
+	}
+	span.star {
+		position: absolute;
+		left: 78px;
+		line-height: 15px;
+		top: 1px;
+		color: #fa8b16;
+		font-size: 13px;
+	}
+}
+

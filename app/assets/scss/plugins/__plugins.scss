@@ -1,0 +1,96 @@
+// @import "owl";      
+      
+.nf-field-element input[type=text],
+.nf-field-element input[type=email],
+.nf-field-element input[type=phone],
+.nf-field-element input[type=number],
+.nf-field-element select, .nf-field-element textarea{
+
+    height:40px  !important;
+    width: 100% !important;
+}
+
+
+
+//custom style
+
+.product-carousel{
+	position: relative;
+
+	.owl-nav {
+		position: absolute;
+		top:80px;
+		width: 100%;
+		.owl-prev ,.owl-next{
+			position: absolute;
+			display: inline-block;
+			height: 75px;
+			width: 75px;
+			background: #003566 !important;
+			border-radius: 50%;
+			padding: 0;
+			margin: 0;
+			&:focus{
+				outline: none;
+			}
+			span{
+				font-size: 36px;
+				color: #ffffff;
+
+			}
+
+		}
+
+		.owl-prev{
+			right: -37.5px;
+
+		}
+
+		.owl-next{
+			left: -37.5px;
+			
+		}
+	}
+		
+		
+}
+.category-carousel{
+	position: relative;
+
+	.owl-nav {
+		position: absolute;
+		top:80px;
+		width: 100%;
+		.owl-prev ,.owl-next{
+			position: absolute;
+			display: inline-block;
+			height: 48px;
+			width: 48px;
+			background: #003566 !important;
+			border-radius: 50%;
+			padding: 0;
+			margin: 0;
+			&:focus{
+				outline: none;
+			}
+			span{
+				font-size: 36px;
+				color: #ffffff;
+
+			}
+
+		}
+
+		.owl-prev{
+			right: -37.5px;
+
+		}
+
+		.owl-next{
+			left: -37.5px;
+			
+		}
+	}
+		
+		
+}

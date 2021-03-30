@@ -1,0 +1,485 @@
+
+// Start Media From 1200px To 1940px
+@include media(">desktop" , "<1940px") {
+    .container-lg{
+        max-width: 1360px;
+    }
+
+
+} //End Media
+
+
+@include media(">1367px" , "<1750px") {
+
+    .service-grid {
+        margin-right: -10%;
+    }
+}
+// Start Media From 1201px To 1499px
+@include media(">desktop" , "<1500px") {
+
+    .about-shape{
+        width: 1920px;
+        left: -10%;
+    }
+} //End Media
+
+
+// Start Media From 1024px To 1366px
+@include media(">1024px" , "<1366px") {
+    .hero-shape{
+        right: -25%;
+        // display: none;
+    }
+    .service-grid {
+        margin-right: 0;
+    }
+
+    .service-item.hide-item {
+        display: none;
+    }
+    .grid-item-col-6{
+        width: calc(100% / 12 * 4   );
+    }
+    .grid-item-col-3{
+        width: calc(100% / 12 * 4  );
+    }
+
+
+
+} //End Media
+
+
+// Start Media From 1200px To 0px
+@include media("<=desktop") {
+
+    .service-grid{
+        margin-right: 0;
+    }
+
+
+
+
+    .team-list{
+        .team-item{
+
+            width: calc(100% / 12 * 3 );
+        }
+    }
+
+    .map-card{
+        margin-right: 0;
+        margin-left: 0;
+        img{
+
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+} //End Media
+
+// Start Media From 992px To 1199px
+@include media(">=tablet", "<desktop") {
+
+
+    .hero-shape{
+        transform: scale(0.8);
+        transform-origin: top right;
+
+    }
+    .page-shape{
+        transform: scale(0.8);
+        transform-origin: top right;
+
+
+    }
+
+    .about-shape{
+        width: 1920px;
+        left: -20%;
+    }
+    .grid-item-col-6{
+        width: calc(100% / 12 * 6   );
+    }
+    .grid-item-col-3{
+        width: calc(100% / 12 * 6   );
+    }
+    .grid-item-col-4{
+        width: calc(100% / 12 * 6   );
+    }
+    .grid-item-col-8{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-h2 {
+        height: 262px;
+        img {
+
+            height: 262px;
+        }
+    }
+} //End Media
+
+// Start Media From 991px To 0px
+@include media("<=tablet") {
+    .service-item.hide-item {
+        display: none;
+    }
+
+    // Responsive Menu
+    .common-menu-wrap  {
+        float: none;
+        &.navbar-collapse{
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 5px;
+            position: absolute;
+            top: 100px;
+            width: -webkit-calc(100% - 30px);
+            width: calc(100% - 30px);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            right: 15px;
+            ul{
+                float: none;
+                li{
+
+                    width: 100%;
+                    a{
+                        display: block;
+                        color: #000;
+                        font-size: 16px;
+                        padding: 5px 10px;
+                        &:hover{
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+} //End Media
+
+// Start Media From 768px To 991px
+@include media(">=phablet", "<tablet") {
+    .hero-shape{
+        transform: scale(0.8);
+        transform-origin: top right;
+        right: -40%;
+
+    }
+
+
+
+
+    .page-shape{
+        transform: scale(0.8);
+        transform-origin: top right;
+        right: -40%;
+
+
+    }
+
+    .about-shape{
+        width: 1920px;
+        left: -30%;
+    }
+    .team-list{
+        .team-item{
+
+            width: calc(100% / 12 * 6 );
+        }
+    }
+
+    .grid-item-col-6{
+        width: calc(100% / 12 * 6   );
+    }
+    .grid-item-col-3{
+        width: calc(100% / 12 * 6   );
+    }
+    .grid-item-col-4{
+        width: calc(100% / 12 * 6   );
+    }
+    .grid-item-col-8{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-h2 {
+        height: 262px;
+        img {
+
+            height: 262px;
+        }
+    }
+
+
+} //End Media
+
+// Start Media From 767px To 0px
+@include media("<=phablet") {
+    #hero.flex-center{
+        align-items: flex-end;
+    }
+
+
+
+    .grid-item-h2{
+        min-height: 250px
+    }
+    .shape-service{
+        display: none;
+    }
+
+    .team-list{
+        .team-item{
+
+            width: calc(100% / 12 * 6 );
+        }
+    }
+    
+        .clinic-content::before {
+
+        display: none;
+    }
+
+   .team-list{
+        display:flex;
+        flex-flow: row wrap;
+    }
+    .team-list .team-text{
+
+    }
+    .team-list .team-item{
+
+        order: 1
+    }
+
+    .team-list .team-text{
+        margin-left: 0;
+        max-width: none;
+        padding: 0 15px;
+        order: 0;
+        flex: 1 100%;
+        width: 100%;
+    }
+    .clinic-date{
+        margin-bottom: 40px;
+
+        &:after{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: #d3dae9;
+            right: 0;
+            left: 0;
+            bottom:25px;
+
+        }
+        li{
+        }
+    }
+
+} //End Media
+// Start Media From 480px To 767px
+@include media(">=phone", "<phablet") {
+    .hero-content{
+        margin-top: 250px;
+    }
+    .hero-shape{
+        transform: scale(0.6);
+        transform-origin: top right;
+        right: -40%;
+
+    }
+    .page-shape{
+        transform: scale(0.6);
+        transform-origin: top right;
+        right: -50%;
+
+
+    }
+    .about-shape{
+        width: 1920px;
+        left: -60%;
+    }
+    .grid-item-col-6{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-col-3{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-col-4{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-col-8{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-h2 {
+        height: 262px;
+        img {
+
+            height: 262px;
+        }
+    }
+
+
+
+
+
+} //End Media
+
+// Start Media From 0px To 550px
+@include media('<=550px') { 
+    .contact-card{
+        padding: 30px;
+    }
+
+
+    .enter-logo{
+        width: 150px;
+    }
+    .main-menu-wrap{
+        padding: 0;
+    }
+
+    .wedo-text,.product-text{
+        margin-bottom: 30px;
+    }
+
+
+} //End Media
+
+// Start Media From 0px To 480px
+@include media('<=phone') { 
+ 
+
+    .gallery-grid{
+        .gallery-card {
+
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+    .page-shape{
+        transform: scale(0.5);
+        transform-origin: top right;
+        right: -50%;
+  display: none; 
+
+    }
+    #hero{
+        padding-top:50px;
+        height: auto;
+        .hero-shape{
+            transform: scale(0.5);
+            transform-origin:  top right;
+            right: -50%;
+
+        }
+        .hero-content{
+
+            margin-top: 150px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .grid-item-col-6{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-col-3{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-col-4{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-col-8{
+        width: calc(100% / 12 * 12   );
+    }
+    .grid-item-h2 {
+        height: 262px;
+        img {
+
+            height: 262px;
+        }
+    }
+
+
+    .about-section{
+        padding: 50px 0;
+        background-color: $primary-color;
+        .about-shape{
+
+            display: none;
+        }
+    }
+    .clinic-content::before {
+
+        display: none;
+    }
+
+    .working-card{
+
+        padding: 50px;
+    }
+    .clinic-date{
+        margin-bottom: 40px;
+
+        &:after{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: #d3dae9;
+            right: 0;
+            left: 0;
+            bottom:25px;
+
+        }
+        li{
+        }
+    }
+    .team-list{
+        display:flex;
+        flex-flow: row wrap;
+    }
+    .team-list .team-item{
+        flex: 1 100%;
+        width: 100%;
+        order: 1
+    }
+
+    .team-list .team-text{
+        margin-left: 0;
+        max-width: none;
+        padding: 0 15px;
+        order: 0;
+        flex: 1 100%;
+        width: 100%;
+    }
+   
+    
+    
+    .map-card {
+        margin-top: 0
+    }
+    
+    
+    .page-header {
+        padding-top: 150px;
+        min-height: 500px;
+    }
+    
+    
+    .common-section{
+        
+        padding: 50px 0;
+    }
+    
+    .about-section {
+        margin-bottom: 50px;
+    
+    }
+} //End Media

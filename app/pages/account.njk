@@ -1,0 +1,88 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="account-wrap">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3>مرحباً بك في سنقر</h3>
+				<nav class="account-tabs">
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-signin-tab" data-toggle="tab" href="#nav-signin" role="tab"
+							aria-controls="nav-signin" aria-selected="true">تسجيل الدخول
+							<div class="divider">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</a>
+						<a class="nav-item nav-link" id="nav-signup-tab" data-toggle="tab" href="#nav-signup" role="tab"
+							aria-controls="nav-signup" aria-selected="false">إنشاء حساب
+							<div class="divider">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-signin" role="tabpanel" aria-labelledby="nav-signin-tab">
+						<form method="POST" class="signin-form">
+							<header class="card-header">
+							</header>
+							<div class="form-group">
+								<label for="name">الإسم</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="name">رقم الهاتف</label>
+								<input type="text" class="form-control">
+							</div>
+							<label class="control control--checkbox">تذكرني
+								<input type="checkbox" />
+								<div class="control__indicator"></div>
+							</label>
+							<button type="submit" class="btn btn-main">تسجيل الدخول</button>
+						</form>
+						<div class="account-link">
+							<p>ليس لديك حساب ؟ <a href="#">إنشاء حساب</a></p>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-signup" role="tabpanel" aria-labelledby="nav-signup-tab">
+						<form method="POST" class="signup-form">
+							<header class="card-header">
+							</header>
+							<div class="form-group">
+								<label for="name">الإسم</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="name">رقم الهاتف</label>
+								<input type="text" class="form-control">
+							</div>
+
+							<label class="control control--checkbox"> <a href="#">أوافق علي الشروط والأحكام</a>
+								<input type="checkbox"/>
+								<div class="control__indicator"></div>
+							</label>
+							<button type="submit" class="btn btn-main">إنشاء حساب</button>
+						</form>
+						<div class="account-link">
+							<p>لديك حساب ؟<a href="">تسجيل الدخول</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="assets/images/account.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+{% endblock %}

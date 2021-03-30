@@ -1,0 +1,52 @@
+.cart-content {
+
+	.btn-all {
+		margin-bottom: 30px;
+	}
+}
+
+.cart-item {
+	border-radius: 30px;
+	padding: 30px;
+	border: 1px solid #ADB5BD;
+	position: relative;
+	margin-bottom: 30px;
+
+
+	.item-control {
+
+		position: absolute;
+		top: 30px;
+		left: 30px;
+
+		.btn-main {
+			height: 40px;
+			line-height: 38px;
+
+		}
+
+		.btn-close {
+			color: #003566;
+			font-size: 20px;
+
+		}
+	}
+
+	.item-store {
+		margin-bottom: 30px;
+	}
+
+	.item-info {
+		margin-bottom: 30px;
+	}
+
+	.item-area {
+
+		color: #ABABAB;
+
+		i {
+			margin-left: 10px;
+		}
+	}
+
+}

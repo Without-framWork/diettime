@@ -1,0 +1,45 @@
+<div class="store-section">
+	<h4>قائمه الطعام</h4>
+	<div class="store-menu"></div>
+	<div class="menu-img">
+		<img src="assets/images/menu-01.png" alt="">
+	</div>
+	<div class="menu-img">
+		<img src="assets/images/menu-02.png" alt="">
+	</div>
+	<div class="menu-img">
+		<img src="assets/images/menu-01.png" alt="">
+	</div>
+	<div class="menu-img">
+		<img src="assets/images/menu-02.png" alt="">
+	</div>
+</div>
+
+<div class="store-section">
+	<h4>الأصناف الأكثر مبيعا</h4>
+	<div class="store-popular">
+		{% include "store/products-slider.njk" %}
+	</div>
+</div>
+
+<div class="store-section">
+	<nav class="store-nav">
+		<div class="nav nav-tabs" id="nav-tab" role="tablist">
+			<a class="nav-item nav-link active" id="nav-01-tab" data-toggle="tab" href="#nav-01" role="tab"
+				aria-controls="nav-01" aria-selected="true">جميع الأصناف</a>
+			<a class="nav-item nav-link" id="nav-02-tab" data-toggle="tab" href="#nav-02" role="tab" aria-controls="nav-02"
+				aria-selected="false">أسماك بحر</a>
+			<a class="nav-item nav-link" id="nav-03-tab" data-toggle="tab" href="#nav-03" role="tab" aria-controls="nav-03"
+				aria-selected="false">أطباق مقلى</a>
+		</div>
+	</nav>
+	<div class="tab-content" id="nav-tabContent">
+		<div class="tab-pane fade show active" id="nav-01" role="tabpanel" aria-labelledby="nav-01-tab">
+			<div class="store-product">
+				{% include "store/products-slider.njk" %}
+			</div>
+		</div>
+		<div class="tab-pane fade" id="nav-02" role="tabpanel" aria-labelledby="nav-02-tab">...</div>
+		<div class="tab-pane fade" id="nav-03" role="tabpanel" aria-labelledby="nav-03-tab">...</div>
+	</div>
+</div>

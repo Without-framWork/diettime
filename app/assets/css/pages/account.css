@@ -1,0 +1,90 @@
+.account-wrap {
+  padding: 50px 0;
+}
+
+.account-wrap h3 {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.account-wrap .signup-form {
+  padding-left: 100px;
+}
+
+.account-wrap .signup-form .control {
+  margin-bottom: 30px;
+}
+
+.account-wrap .signup-form .control a {
+  color: #003566;
+  text-decoration: underline;
+}
+
+.account-wrap .signin-form {
+  padding-left: 100px;
+}
+
+.account-wrap .signin-form .control {
+  margin-bottom: 30px;
+}
+
+.account-wrap .btn-main {
+  margin-bottom: 40px;
+}
+
+.account-link p {
+  font-size: 16px;
+}
+
+.account-link a {
+  font-size: 16px;
+  color: #FFC300;
+  margin-right: 5px;
+}
+
+.account-tabs {
+  padding: 0;
+}
+
+.account-tabs .nav-tabs {
+  border: none;
+}
+
+.account-tabs .nav-item {
+  font-size: 20px;
+  border: none;
+  margin-left: 50px;
+  display: inline-block;
+  margin-bottom: 50px;
+  color: #ADB5BD;
+  padding: 0;
+}
+
+.account-tabs .nav-item.active {
+  color: #001D3D;
+}
+
+.account-tabs .nav-item.active .divider span {
+  background: #FEDD12;
+}
+
+.account-tabs .nav-item .divider span {
+  display: inline-block;
+  height: 3px;
+  background: #ADB5BD;
+  border-radius: 4px;
+}
+
+.account-tabs .nav-item .divider span:nth-child(1) {
+  margin-left: 4%;
+  width: 10%;
+}
+
+.account-tabs .nav-item .divider span:nth-child(2) {
+  margin-left: 4%;
+  width: 12%;
+}
+
+.account-tabs .nav-item .divider span:nth-child(3) {
+  width: 60%;
+}

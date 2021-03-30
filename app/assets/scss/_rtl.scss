@@ -1,0 +1,83 @@
+body{
+    
+
+    font-family: 'Cairo', sans-serif;
+  
+}
+#hero{
+   .shape-bottom{
+
+           -moz-transform: scaleX(-1);
+           -o-transform: scaleX(-1);
+           -webkit-transform: scaleX(-1);
+           transform: scaleX(-1);
+           filter: FlipH;
+           -ms-filter: "FlipH";
+           margin-bottom: -1px;
+    }
+}
+.btn-main{
+      letter-spacing: 0  ;
+}
+.ml-auto, .mx-auto {
+  
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+
+
+// headline rtl
+.cd-words-wrapper {
+    text-align: right;
+}
+.cd-headline.clip 
+.cd-words-wrapper::after {
+     left: 0;
+    right: auto;
+}
+.cd-words-wrapper b{
+    left: auto;
+    right: 0;
+}
+
+
+// project icon
+.project-item figcaption a:first-child {
+    margin-right: 0;
+}
+.project-item figcaption a:last-child {
+    margin-right: 10px;
+}
+
+
+
+
+// reviews next rtl
+.reviews-carousel {
+    .owl-nav{
+        .owl-next{
+            &:before{
+                right: 100%;
+                transform: rotate(180deg);
+                left: auto;
+                line-height:  26px;
+            }
+        }
+    }
+}
+
+
+
+.scrollToTop {
+    transform: translateX(100%);
+    left: -130px;
+    right: auto;
+}
+.scrollToTop.active {
+    left: 30px;
+    right: auto;
+    transform: translateX(0);
+
+}
+

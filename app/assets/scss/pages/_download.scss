@@ -1,0 +1,27 @@
+.fast-download-box {
+	text-align: center;
+	padding: 20px 10px;
+}
+.fast-download-box h1 {
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 40px;
+	
+}
+.dotting {
+	display: inline-block;
+	min-width: 3px;
+	min-height: 3px;
+	box-shadow: 3px 0 currentColor, 8px 0 currentColor, 13px 0 currentColor;
+	-webkit-animation: dot 2.8s infinite step-start both;
+	animation: dot 2.8s infinite step-start both;
+}
+.fast-download-box .file {
+	color: #24cd77;
+	display: block;
+	font-size: 20px;
+}
+.fast-download-box p {
+	line-height: 40px;
+	font-size: 16px;
+}

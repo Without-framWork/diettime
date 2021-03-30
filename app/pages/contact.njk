@@ -1,0 +1,63 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<form method="POST" class="contact-form">
+	<header class="card-header">
+		<h3>كيف يمكننا مساعدتك؟</h3>
+		<span>قسم خدمة العملاء لدينا جاهز لاستقبال استفساراتكم على مدار الساعة طوال أيام الأسبوع</span>
+	</header>
+	<div class="form-group">
+		<label for="name">الإسم</label> 
+		<input type="text" class="form-control">
+	</div>
+	<div class="form-group">
+		<label for="name">البريد الإلكتروني</label> 
+		<input type="text" class="form-control">
+	</div>
+	<div class="form-group">
+		<label for="name">الهاتف</label> 
+		<input type="text" class="form-control">
+	</div>
+
+	
+
+
+	<div class="form-group">
+		<label for="name">الرسالة</label> 
+		<textarea class="form-control" placeholder="أكتب رسالتك هنا"></textarea>
+	</div>
+
+	<!-- <button type="submit" class="btn btn-main ">Send</button> -->
+	<button type="submit" class="btn btn-main">إرسال</button>
+</form>
+
+<section class="common-section contact-section">
+	<div class="container">
+		<header class="section-header">
+						<div class="section-title">
+							<h2>تواصل معنا أسرع</h2>
+							<div class="divider">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<p>يمكنكم التواصل معنا علي العناوين و الأرقام التالية وسيتم الرد في أسرع وقت</p>
+		</header>
+	</div>
+	<div class="section-content">
+		<div class="container">
+			<ul class="contact-info">
+				<li>
+					<i class="fa fa-map-marker"></i>
+					<span>شارع احمد فهمى - سموحه - الإسكندرية</span>
+				</li>
+				<li>
+					<i class="fa fa-phone"></i>
+					<span>0020123456789 - 0020123456789</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+{% endblock %}

@@ -1,0 +1,125 @@
+.common-section{
+padding: 80px  0;
+}
+
+
+// <div class="section-title">
+// <h2 class="title-text">عن سُنقر</h2>
+// <div class="title-divider">
+// 	<span></span>
+// 	<span></span>
+// 	<span></span>
+// </div>
+// </div>
+.section-title{
+	display: inline-block;
+	margin-bottom: 50px;
+	.divider{
+		span{
+			display: inline-block;
+			height: 3px;
+			background: #FFD60A;
+			
+			border-radius: 4px;
+			&:nth-child(1){
+				margin-left: 4%;
+				width: 10%;
+			
+			}
+			&:nth-child(2){
+				margin-left: 4%;
+				width: 15%;
+
+			}
+			&:nth-child(3){
+				width: 60%;
+			}
+		}
+	}
+}
+
+
+.about-section{
+    position: relative;
+		margin-bottom: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+
+    h2{
+
+        margin-bottom: 40px;
+    }
+
+}
+.reviews-section{
+    position: relative;
+
+    padding-top: 250px;
+    padding-bottom: 250px;
+
+    h2{
+
+        margin-bottom: 40px;
+    }
+
+}
+
+
+.about-shape{
+ position: absolute;
+ top: 0;
+ background-image:url('../images/about-shape.png');
+ background-repeat:no-repeat;
+ background-size:contain;
+ background-position:center;
+ width: 100%;
+ height: 1145px;
+z-index: -1;
+}
+.about-mask{
+    visibility: hidden;
+}
+.shape-top {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 9;
+    bottom: 100%;
+    margin-bottom: -1px;
+}
+.shape-bottom {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 9;
+    top: 100%;
+    margin-top: -1px;
+    right: 0;
+}
+
+.project-text{
+    max-width: 360px;
+    h2{
+        color: #401a31;
+    }
+    p{
+        color: #9d2f4c;
+    }
+}
+.product-text{
+    max-width: 420px;
+    h2{
+        color: #9b2e4b;
+    }
+    p{
+        color: #9d2f4c;
+    }
+}
+.wedo-text{
+    h2{
+        color: #9b2e4b;
+    }
+    p{
+        color: #9d2f4c;
+    }
+}

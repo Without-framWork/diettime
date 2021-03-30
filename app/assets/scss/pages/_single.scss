@@ -1,0 +1,417 @@
+#single-content{
+	float: left;
+	width: calc(100% - 340px);
+}
+#single-sidebar{
+	width: 320px;
+}
+
+
+
+.app-card{
+	background: #fff;
+	width: auto;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.15);
+	margin-bottom: 20px;
+
+	h2{
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+}
+
+.app-breadcrumb{
+	background: #fbfbfb;
+	border-bottom: 1px solid #e8e8e8;
+	height: 55px;
+	line-height: 55px;
+	color: #666;
+	font-size: 18px;
+	padding: 0px 10px;
+	font-weight: 400;
+	position: relative;
+	.breadcrumb-item{
+		line-height: 55px;
+	}
+}
+
+
+
+
+// App View
+.app-view{
+	padding: 30px 25px;
+	overflow: hidden;
+	clear: both;
+
+	.app-title{
+		font-size: 30px;
+		color: #333;
+		display: inline;
+		font-weight: normal;
+	}
+	.app-thumb{
+		float: left;
+		margin-right: 25px;
+	}
+	.view-content{
+		overflow: hidden;
+	}
+
+	.app-info{
+		display: block;
+		margin-bottom: 10px;
+		.app-ver{
+			color: #24cd77;
+		}
+	}
+	.stars{
+		margin-bottom: 10px;
+	}
+	
+
+	.btn-groups{
+		.btn-var,.btn-ver{
+			background: rgba(0, 0, 0, 0)
+		}
+		.btn-var{
+			border-color: #fa8b16;
+			color: #fa8b16;
+			margin: 0 10px;
+		}
+		.btn-ver{
+			border-color: #24cd77;
+			color: #24cd77;
+		}
+	}
+
+}
+
+
+
+// App View
+.app-note{
+	text-align: center;
+	padding: 12px 20px;
+	line-height: 20px;
+	background: linear-gradient(to bottom, #fff 0%, #f8f8f8 47%, #f2f5f9 100%);
+	border-top: 1px solid #e8e8e8;
+	a{
+		color: #656565;
+	}
+}
+
+
+// App Gallery
+.app-gallery{
+
+	position: relative;
+
+	.slider-wrap{
+	overflow: hidden;
+	overflow-x: hidden;
+	position: relative;
+	width: 100%;
+	height: 370px;
+	}
+}
+.slider-btn{
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	right: 0;
+	left: 0;
+
+	.btn-next,.btn-prev{
+		position: absolute;
+		height: 50px;
+		width: 50px;
+		background: rgba(0, 0, 0, 0.8);
+		color:#fff;
+		text-align: center;
+		z-index: 9999;
+		&:hover{
+			cursor: pointer;
+			background: rgba(0, 0, 0, 0.5);
+			i{
+				color: rgba(255,255 , 255, 0.8)
+			}
+		}
+		i{
+			font-size: 36px;
+			line-height: 50px;
+
+		}
+	}
+	.btn-next{
+		right: 0;
+	}
+	.btn-prev{
+		left: 0;
+	}
+}
+.slider-items{
+	position: absolute;
+	list-style: none;
+	white-space: nowrap;
+	.slide-item{
+		display:inline-block;
+	}
+
+}
+
+
+
+// App Desc
+.app-desc{
+	padding: 20px;
+	color: #666;
+	font-size: 14px;
+
+	.content{
+	//	margin: 20px 20px 0 20px;
+		line-height: 20px;
+		height: 200px;
+		overflow: hidden;
+		position: relative;
+
+	}
+	&.active{
+		 .show-more{
+		 	display: block;
+		 }
+		
+	}
+/*	&.desc-more{
+		.show-more{
+			display: block;
+			.show-more-end{
+				display: block;
+			}
+		}
+		
+	}
+	&.desc-less{
+		.show-more{
+			.show-more-end{
+				display: ;
+			}
+		}
+		
+	}*/
+	.show-more{
+		display: none;
+		position: relative;
+		&.active{
+			.show-more-end{
+				display: none;
+
+			}
+		}
+		.show-more-end{
+			display: block;
+			position: absolute;
+			top: -30px;
+			height: 30px;
+			left: 0;
+			width: 100%;
+			color: #00A6ED;
+			background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, #fff));
+			background-image: -webkit-linear-gradient(top, rgba(255,255,255,0), #fff);
+			background: linear-gradient(to bottom, rgba(255,255,255,0), #fff);
+		}
+		.show-more-link{
+			
+			cursor: pointer;
+			line-height: 30px;
+			padding-right: 15px;
+			height: 30px;
+			display: inline-block;
+			color: #00A6ED;
+			text-decoration: none;
+		}
+
+
+	}
+}
+// App Tags
+.app-tags{
+	padding: 20px;
+}
+.tag-list{
+	list-style: none;
+	margin: 5px 8px 6px 0;
+	padding: 0;
+	background-color: transparent;
+	vertical-align: middle;
+	display: inline-block;
+	li{
+		line-height: 20px;
+
+		a{
+				display: block;
+				padding: 4px 10px;
+				border: 1px solid #00A6ED;
+				border-radius: 4px;
+				text-decoration: none;
+				font-size: 14px;
+				color: #00A6ED;
+
+		}
+	}
+}
+// App infos
+
+.app-infos{
+	padding: 20px;
+
+	.app-update{
+		img{
+			margin-top: -3px;
+			margin-left: 3px;
+		}
+	}
+	.info-list{
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		li{
+			list-style: none;
+			width: calc(100% / 3);
+			float: left;
+			p{
+				margin-bottom: 5px;
+				line-height: 18px;
+				font-size: 12px;
+				strong{
+					font-size: 14px;
+					font-weight: 600;
+				}
+			}
+			&:nth-child(n+4) {
+
+				margin-top: 10px;
+		
+		}
+		}
+	}
+
+}
+
+.desc-line{
+	font-size: 0;
+  height: 1px;
+  background: #e8e8e8;
+}
+
+
+
+
+// app ver
+
+.app-ver{
+	.ver-title{
+		font-size: 18px;
+		line-height: 20px;
+		height: 55px;
+		padding-right: 45px;
+		vertical-align: middle;
+		display: table-cell;
+		color: #666;
+	}
+	.ver-list{
+			//padding: 0 20px;
+			margin-left: -10px;
+			list-style: none;
+			padding-bottom: 20px;
+		li{
+		//	padding: 0 20px;
+			margin-bottom: 20px;
+			width: calc(100% / 3);
+			float: left;
+			a{
+				display: block;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.ver-item{
+		box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+
+		&:hover{
+			-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+			-webkit-transform: translate3d(0, -1px, 0);
+			transform: translate3d(0, -1px, 0);
+		}
+		background: #ffffff;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+		-webkit-transition: all .2s linear;
+		transition: all .2s linear;
+		height: 136px;
+		padding: 15px 10px;
+		position: relative;
+	}
+	.ver-haed{
+		border-left: solid 3px #24cd77;
+		padding-left: 10px;
+		line-height: 18px;
+	}
+	.ver-item-n {
+
+    margin-bottom: 8px;
+    color: #545454;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-weight: 400;
+		font-size: 20px;
+	
+	}
+	
+	.ver-item-t {
+		display: inline-block;
+		border: solid 1px #fa8b16;
+		color: #fa8b16;
+		padding: 0 5px;
+		border-radius: 4px;
+		font-size: 14px;
+	}
+	.ver-item-m {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		z-index: 20;
+		padding: 5px;
+		width: 30px;
+		height: 30px;
+		background: url("https://static.apkpure.com/www/static/imgs/ver_info.png") no-repeat 0 0;
+	}
+	.ver-item-t.ver-apk {
+		
+		border-color: #24cd77;
+		color: #24cd77;
+	}
+	.ver-item-s {
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+		color: #545454;
+		font-size: 14px;
+	}
+	.ver-info p {
+    color: #888;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+		line-height: 30px;
+		margin-bottom: 0;
+	}
+	.ver-info .update-on {
+    margin-top: 0;
+	}
+}

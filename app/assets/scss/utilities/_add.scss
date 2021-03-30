@@ -1,0 +1,245 @@
+$step: 5;
+$max : 40;
+
+
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-mt-#{$value}{
+        margin-top: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-mb-#{$value}{
+        margin-bottom: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-mr-#{$value}{
+        margin-right: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-ml-#{$value}{
+        margin-left: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-mv-#{$value}{
+        margin-top: #{$value}px !important;
+        margin-bottom: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-mh-#{$value}{
+        margin-right: #{$value}px !important;
+        margin-left: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-m-#{$value}{
+        margin: #{$value}px !important;
+
+    }
+
+}
+
+/*  Space Margin auto    */
+
+.add-mh-a{
+    margin-right: auto;
+    margin-left: auto;
+}
+.add-mv-a{
+    margin-top: auto;
+    margin-right: auto;
+}
+
+
+.add-mv-a{
+    margin-top: auto;
+    margin-right: auto;
+}
+.add-mt-a{
+    margin-top: auto;
+}
+.add-mb-a{
+    margin-bottom: auto;
+}
+.add-mr-a{
+    margin-right: auto;
+}
+.add-ml-a{
+    margin-left: auto;
+}
+
+
+
+/************************************/
+
+
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-pt-#{$value}{
+        padding-top: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-pb-#{$value}{
+        padding-bottom: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-pr-#{$value}{
+        padding-right: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-pl-#{$value}{
+        padding-left: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-pv-#{$value}{
+        padding-top: #{$value}px;
+        padding-bottom: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-ph-#{$value}{
+        padding-right: #{$value}px !important;
+        padding-left: #{$value}px !important;
+    }
+
+}
+@for $i from 1 through $max{
+
+    $value : ($i * $step );
+    .add-p-#{$value}{
+        padding: #{$value}px !important;
+
+    }
+
+}
+
+/*  Space Padding auto    */
+
+.add-ph-a{
+    padding-right: auto;
+    padding-left: auto;
+}
+.add-pv-a{
+    padding-top: auto;
+    padding-right: auto;
+}
+
+
+.add-pv-a{
+    padding-top: auto;
+    padding-right: auto;
+}
+.add-pt-a{
+    padding-top: auto;
+}
+.add-pb-a{
+    padding-bottom: auto;
+}
+.add-pr-a{
+    padding-right: auto;
+}
+.add-pl-a{
+    padding-left: auto;
+}
+
+
+
+/*--------------------
+
+1. Property shortcut
+
+m         margin
+   -OR-
+p         padding
+
+
+---------------------
+
+
+2. Direction
+
+t         top
+b         bottom
+r         right
+l         left
+ 
+v         vertical
+h         horizontal
+ 
+(none)    No direction specified means *all* directions (like in `margin: 8px;`)
+
+
+
+---------------------------- 
+3. Delimiter
+
+-         positive value
+--        negative value
+Example:
+
+.mt-xs  { margin-top: 16px }
+.mt--xs { margin-top: 16px }
+----------------------------
+
+4. Size
+
+a          auto
+0          0
+xxxs       4px
+xxs        8px
+xs         16px
+s          24px
+m          36px
+l          48px
+xl         72px
+xxl        96px
+xxxl       144px
+
+
+
+
+-------------------*/
+

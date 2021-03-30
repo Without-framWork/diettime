@@ -1,0 +1,135 @@
+html,body{
+     overflow-x: hidden;
+    
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+   // background:$color-background; 
+    line-height: 18px;
+  //  color: $color-default-dark;
+		//font-family:'Roboto', sans-serif;  //$font-light;
+		
+		font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    overflow-y:  auto !important;
+    position: relative;
+ //   background: #f2f5f9
+  
+   
+}
+
+ul,
+li,
+ol{
+    margin: 0;
+    padding: 0;
+    line-height: 36px;
+    font-size: 16px;
+}
+
+pre {
+    background: #fff;
+    padding: 10px;
+}
+
+p {
+   // margin-bottom: 40px;
+    font-size: 14px;
+  
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  // font-family: 'MuseoSans-900';
+    font-weight: 700;;
+    margin-top: 0;  
+    line-height: 1.5;  
+    margin-bottom: 1.5rem;
+}
+
+h1,.h1{
+    font-size: 3.6rem
+}
+h2,.h2{
+    font-size: 3.0rem;
+}
+h3,.h3{
+    font-size: 2.4rem;
+}
+h4,.h4{
+    font-size: 1.8rem;
+}
+h5,.h5{
+    font-size: 1.4rem; 
+}
+h6,.h6{
+    font-size: 1.2rem;
+}
+
+
+
+pre {
+    // monospace defaults to Courrier New on windows, which seems to badly alter the = sign, so we'll avoid it
+    font-family: consolas, monospace;
+}
+
+a{
+    //transition: $defult-transition;
+    color: #00A6ED;
+    transition: $main-transition;
+    
+    &:visited{
+        text-decoration: none;
+        outline: none;
+        color:none;
+    }
+    &:focus , &:active , &:hover{
+        text-decoration: none;
+				outline: none;
+				color: initial	
+        //color:$color-secondary;
+    }
+  
+}
+
+.text-14{
+    
+    font-size: 14px;
+}
+
+.text-16{
+    
+       font-size: 16px;
+}
+
+.text-18{
+    
+       font-size: 18px;
+}
+
+.text-20{
+    
+       font-size: 20px;
+}
+
+.text-24{
+    
+       font-size: 24px;
+}

@@ -1,0 +1,55 @@
+.offers-list {
+
+	.offer-item {
+		position: relative;
+		background: #E9ECEF;
+		overflow: hidden;
+		margin-bottom: 30px;
+
+		.offer-img {
+			float: right;
+			margin-left: 10px;
+			border: 1px solid #FFC300;
+			background: #ffffff;
+			padding: 5px;
+			width: 100px;
+			height: 100px;
+
+		}
+
+		.offer-content {
+			max-width: 630px;
+
+			.offer-title {
+				font-size: 20px;
+				color: #00488F;
+				font-weight: 300;
+				margin-bottom: 10px;
+
+			}
+
+			.offer-info {
+				font-size: 16px;
+				color: #000814;
+				line-height: 1.5em;
+
+			}
+		}
+
+		.offer-price {
+			font-size: 20px;
+			color: #003566;
+			line-height: 1.5em;
+			font-weight: 600;
+			position: absolute;
+			left: 100px;
+			top: 0;
+			bottom: 0;
+			line-height: 100px;
+		}
+	}
+}
+
+.offer-page{
+	padding-top: 30px;
+}

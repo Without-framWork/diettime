@@ -1,0 +1,27 @@
+// About page 
+.content-card {
+	text-align: center;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+	border-radius: 54px;
+	padding: 50px 30px;
+	margin-bottom: 40px;
+
+	h3 {
+		color: #FFC300;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 1.4em;
+	}
+
+
+}
+
+
+.about-cards {
+	max-width: 780px;
+	margin: 0 auto;
+
+	.content-card {}
+}
