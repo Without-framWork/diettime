@@ -133,3 +133,20 @@ a{
     
        font-size: 24px;
 }
+
+
+/*======= Map Styling ============*/
+// .gmnoprint a, .gmnoprint span {
+// 	display:none;
+// }
+
+// .gmnoprint div {
+// 	background:none !important;
+// }
+
+// #GMapsID div div a div img{
+// 	display:none;
+// }
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
