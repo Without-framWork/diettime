@@ -1,0 +1,17 @@
+.app-breadcrumb {
+  background: #fbfbfb;
+  border-bottom: 1px solid #e8e8e8;
+  height: 55px;
+  line-height: 55px;
+  color: #666;
+  font-size: 18px;
+  padding: 0px 10px;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.app-breadcrumb .breadcrumb-item {
+  line-height: 55px;
+}
+/*# sourceMappingURL=breadcrumb.css.map */
