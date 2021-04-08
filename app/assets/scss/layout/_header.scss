@@ -27,9 +27,7 @@
 	
 	.top-social{
 		display: inline-block;
-		span{
-
-		}
+		
 		ul{
 			display: inline-block
 		}
@@ -39,13 +37,13 @@
 .site-header{
 	width: 100%;
 	height: 98px;
-	background: #DEE2E6;
+	background: #FFD60A ;
 }
 
 .icon-menu{
 	i{
 		font-size: 28px;
-		margin-left: 30px;
+		// margin-right: 99px;
 	}
 }
 .navbar-nav{
@@ -55,7 +53,9 @@
 		margin-left: 10px;
 		&.active{
 			a{
-				background: #FFD60A;
+				background:#F9F9F9 ;
+               
+               
 				
 			}
 		}
@@ -67,11 +67,11 @@
 			padding:0 30px;
 			font-weight: 500;
 			line-height: 44px;
-			border-radius: 20px;
+			border-radius: 10px;
 
 			&:hover{
-				color: #2354f3; 
-				background: #FFD60A;
+				color: #000000; 
+				background: #F9F9F9;
 			}
 		}
 	}
