@@ -1,31 +1,15 @@
 /* _____ VARIABLES _____ */
 @font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/roboto/RobotoRegular.eot");
-  src: url("../fonts/roboto/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/roboto/RobotoRegular.woff2") format("woff2"), url("../fonts/roboto/RobotoRegular.woff") format("woff"), url("../fonts/roboto/RobotoRegular.ttf") format("truetype"), url("../fonts/roboto/RobotoRegular.svg#Roboto") format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/roboto/RobotoMedium.eot");
-  src: url("../fonts/roboto/RobotoMedium.eot") format("embedded-opentype"), url("../fonts/roboto/RobotoMedium.woff2") format("woff2"), url("../fonts/roboto/RobotoMedium.woff") format("woff"), url("../fonts/roboto/RobotoMedium.ttf") format("truetype"), url("../fonts/roboto/RobotoMedium.svg#Roboto") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/roboto/RobotoBold.eot");
-  src: url("../fonts/roboto/RobotoBold.eot") format("embedded-opentype"), url("../fonts/roboto/RobotoBold.woff2") format("woff2"), url("../fonts/roboto/RobotoBold.woff") format("woff"), url("../fonts/roboto/RobotoBold.ttf") format("truetype"), url("../fonts/roboto/RobotoBold.svg#Roboto") format("svg");
-  font-weight: 600;
+  font-family: 'sonqer';
+  src: url("../fonts/sonqer.eot?tzyhq");
+  src: url("../fonts/sonqer.eot?tzyhq#iefix") format("embedded-opentype"), url("../fonts/sonqer.ttf?tzyhq") format("truetype"), url("../fonts/sonqer.woff?tzyhq") format("woff"), url("../fonts/sonqer.svg?tzyhq#sonqer") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'dentiest' !important;
+  font-family: 'sonqer' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -37,8 +21,100 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow:before {
+.icon-arrow-right:before {
+  content: "\e90c";
+}
+
+.icon-info:before {
+  content: "\e90e";
+}
+
+.icon-edit:before {
+  content: "\e90d";
+}
+
+.icon-cart:before {
+  content: "\e90a";
+}
+
+.icon-check:before {
+  content: "\e901";
+}
+
+.icon-delete:before {
+  content: "\e902";
+}
+
+.icon-car:before {
+  content: "\e903";
+}
+
+.icon-phone:before {
+  content: "\e904";
+}
+
+.icon-calender:before {
+  content: "\e905";
+}
+
+.icon-plus:before {
+  content: "\e906";
+}
+
+.icon-arrow-prev:before {
+  content: "\e907";
+}
+
+.icon-arrow-next:before {
+  content: "\e908";
+}
+
+.icon-logout:before {
+  content: "\e909";
+}
+
+.icon-close:before {
+  content: "\e90f";
+}
+
+.icon-search:before {
+  content: "\e910";
+}
+
+.icon-target:before {
+  content: "\e911";
+}
+
+.icon-notification:before {
+  content: "\e912";
+}
+
+.icon-location:before {
+  content: "\e913";
+}
+
+.icon-offer:before {
+  content: "\e914";
+}
+
+.icon-clock:before {
+  content: "\e915";
+}
+
+.icon-world:before {
+  content: "\e916";
+}
+
+.icon-discount:before {
   content: "\e900";
+}
+
+.icon-loyalty:before {
+  content: "\e917";
+}
+
+.icon-money:before {
+  content: "\e918";
 }
 
 .img-right {
