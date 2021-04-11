@@ -63,110 +63,6 @@
 								<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse common-menu-wrap " id="navbarSupportedContent">
-
-
-							<div class="user-ntf">
-								<div class="ntf-icon">
-									<a href="#"><i class="icon-notification"></i></a>
-								</div>
-
-								<div class="drop-menu">
-									<div class="ntf-header">
-										<h4 class="ntf-title">الإشعارات</h4>
-										<span class="ntf-dots">
-											<span></span>
-											<span></span>
-											<span></span>
-											<ul class="dots-menu">
-												<li><a href="">اعدادات</a></li>
-												<li><a href="">حذف </a></li>
-											</ul>
-										</span>
-									</div>
-									<h5 class="ntf-date">اليوم</h5>
-									<ul class="ntf-list">
-										<li class="ntf-item">
-											<div class="ntf-content">
-												<p class="ntf-text">تم توصيل طلبك بنجاح .. نتمنى ان تكون تجربه سعيدة مع سنقر .. هيا اطلب من سنقر ما تريد</p>
-												<span class="ntf-time">الآن</span>
-												<i class="ntf-status"></i>
-											</div>
-											<span class="ntf-dots">
-												<a class="dots-icon" href="">
-													<span></span>
-													<span></span>
-													<span></span>
-												</a>
-												<ul class="dots-menu">
-													<li><a href="">اعدادات</a></li>
-													<li><a href="">حذف </a></li>
-												</ul>
-											</span>
-										</li>
-										<li class="ntf-item">
-											<div class="ntf-content">
-												<p class="ntf-text">تم توصيل طلبك بنجاح .. نتمنى ان تكون تجربه سعيدة مع سنقر .. هيا اطلب من سنقر ما تريد</p>
-												<span class="ntf-time">الآن</span>
-												<i class="ntf-status"></i>
-											</div>
-											<span class="ntf-dots">
-												<a class="dots-icon" href="">
-													<span></span>
-													<span></span>
-													<span></span>
-												</a>
-												<ul class="dots-menu">
-													<li><a href="">اعدادات</a></li>
-													<li><a href="">حذف </a></li>
-												</ul>
-											</span>
-										</li>
-										<li class="ntf-item">
-											<div class="ntf-content">
-												<p class="ntf-text">تم توصيل طلبك بنجاح .. نتمنى ان تكون تجربه سعيدة مع سنقر .. هيا اطلب من سنقر ما تريد</p>
-												<span class="ntf-time">الآن</span>
-												<i class="ntf-status"></i>
-											</div>
-											<span class="ntf-dots">
-												<a class="dots-icon" href="">
-													<span></span>
-													<span></span>
-													<span></span>
-												</a>
-												<ul class="dots-menu">
-													<li><a href="">اعدادات</a></li>
-													<li><a href="">حذف </a></li>
-												</ul>
-											</span>
-										</li>
-										<li class="ntf-item">
-											<div class="ntf-content">
-												<p class="ntf-text">تم توصيل طلبك بنجاح .. نتمنى ان تكون تجربه سعيدة مع سنقر .. هيا اطلب من سنقر ما تريد</p>
-												<span class="ntf-time">الآن</span>
-												<i class="ntf-status"></i>
-											</div>
-											<span class="ntf-dots">
-												<a class="dots-icon" href="">
-													<span></span>
-													<span></span>
-													<span></span>
-												</a>
-												<ul class="dots-menu">
-													<li><a href="">اعدادات</a></li>
-													<li><a href="">حذف </a></li>
-												</ul>
-											</span>
-										</li>
-					
-							
-									</ul>
-
-								</div>
-
-			
-							</div>
-						
-								
 								<ul class="navbar-nav ">
 									<li class="nav-item active"><a href="/">الرئيسية</a></li>
 									<li class="nav-item"><a href="about.html">معلومات عنا</a></li>
@@ -209,24 +105,21 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<h3>مرحباً بك في سنقر</h3>
 				<nav class="account-tabs">
 					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link disabled" id="nav-signin-tab" data-toggle="tab" href="#nav-signin" role="tab"
+							aria-controls="nav-signin" aria-selected="true" disabled>تسجيل الدخول
+							
+						</a> 
+						
 						<a class="nav-item nav-link active" id="nav-signin-tab" data-toggle="tab" href="#nav-signin" role="tab"
-							aria-controls="nav-signin" aria-selected="true">تسجيل الدخول
-							<div class="divider">
-								<span></span>
-								<span></span>
-								<span></span>
-							</div>
+							aria-controls="nav-signin" aria-selected="true"> كعميل <i class="fa fa-check" aria-hidden="true"></i>
+
+							
 						</a>
 						<a class="nav-item nav-link" id="nav-signup-tab" data-toggle="tab" href="#nav-signup" role="tab"
-							aria-controls="nav-signup" aria-selected="false">إنشاء حساب
-							<div class="divider">
-								<span></span>
-								<span></span>
-								<span></span>
-							</div>
+							aria-controls="nav-signup" aria-selected="false">كمحل<i class="fa fa-check" aria-hidden="true"></i>
+							
 						</a>
 					</div>
 				</nav>
@@ -265,21 +158,27 @@
 								<label for="name">رقم الهاتف</label>
 								<input type="text" class="form-control">
 							</div>
+							<div class="form-group">
+								<label for="name">كلمة السر</label>
+								<input type="text" class="form-control">
+							</div>
 
-							<label class="control control--checkbox"> <a href="#">أوافق علي الشروط والأحكام</a>
+							<label class="control control--checkbox" > <a class="link-chekbox" href="#"> <p >تذكرني<a style="margin-right:60%;" href=""> نسيت كلمة السر ؟ </a></p>
+</a>
+
 								<input type="checkbox"/>
 								<div class="control__indicator"></div>
 							</label>
-							<button type="submit" class="btn btn-main">إنشاء حساب</button>
+							<button type="submit" class="btn btn-main">تسجيل الدخول</button>
 						</form>
 						<div class="account-link">
-							<p>لديك حساب ؟<a href="">تسجيل الدخول</a></p>
+							<p> ليس لديك حساب ؟ <a href="">انشاء حساب </a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="assets/images/account.png" alt="">
+				<img src="assets/images/account-image.png" alt="">
 			</div>
 		</div>
 	</div>

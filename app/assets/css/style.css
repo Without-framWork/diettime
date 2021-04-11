@@ -857,7 +857,7 @@ a[href^="https://maps.google.com/maps"] {
   transition: all 200ms ease-in-out;
   color: #ffffff;
   border: 1px solid #003566;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .btn-main:hover {
@@ -2208,7 +2208,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .form-group .form-control {
   height: 45px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 0 15px 0px;
   margin-bottom: 15px;
 }
@@ -2255,6 +2255,59 @@ a[href^="https://maps.google.com/maps"] {
 
 .content-404 span {
   margin-bottom: 30px;
+}
+
+.points-sonqr h5 span {
+  margin-right: 30px;
+  color: #FFC300;
+}
+
+.points-sonqr p {
+  margin-top: 25px;
+  color: #ABABAB;
+  margin-bottom: 40px;
+}
+
+.points-sonqr .pionts-link {
+  margin-top: 30px;
+  margin-bottom: 130px;
+  text-decoration: underline;
+}
+
+.points-sonqr .pionts-link a {
+  color: #003566;
+}
+
+.donation-sonqr h6 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.donation-sonqr h6 img {
+  margin-left: 15px;
+}
+
+.donation-sonqr select {
+  width: 40%;
+  height: 48px;
+  margin-bottom: 33px;
+  padding-right: 188px;
+}
+
+.donation-sonqr .btn-main {
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.donation-sonqr .donation-link {
+  margin-top: 20px;
+  margin-bottom: 44px;
+  text-decoration: underline;
+}
+
+.donation-sonqr a {
+  color: #003566;
 }
 
 .page-card {
@@ -5042,6 +5095,8 @@ a[href^="https://maps.google.com/maps"] {
 
 .account-wrap .btn-main {
   margin-bottom: 40px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .account-link p {
@@ -5069,36 +5124,14 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   margin-bottom: 50px;
   color: #ADB5BD;
-  padding: 0;
+  padding: 18px 24px;
 }
 
 .account-tabs .nav-item.active {
-  color: #001D3D;
-}
-
-.account-tabs .nav-item.active .divider span {
-  background: #FEDD12;
-}
-
-.account-tabs .nav-item .divider span {
-  display: inline-block;
-  height: 3px;
-  background: #ADB5BD;
-  border-radius: 4px;
-}
-
-.account-tabs .nav-item .divider span:nth-child(1) {
-  margin-left: 4%;
-  width: 10%;
-}
-
-.account-tabs .nav-item .divider span:nth-child(2) {
-  margin-left: 4%;
-  width: 12%;
-}
-
-.account-tabs .nav-item .divider span:nth-child(3) {
-  width: 60%;
+  background-color: rgba(0, 72, 143, 0.5);
+  color: #00488F;
+  border-radius: 10px;
+  border: #00488F;
 }
 
 .step-wrapper {
