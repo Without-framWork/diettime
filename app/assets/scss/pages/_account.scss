@@ -30,6 +30,8 @@
 
 	.btn-main {
 		margin-bottom: 40px;
+		width:100%;
+		border-radius: 10px;
 	}
 }
 
@@ -61,43 +63,21 @@
 		display: inline-block;
 		margin-bottom: 50px;
 		color: #ADB5BD;
-		padding: 0;
+		padding: 18px 24px;
+		
+		
 
 		&.active {
-			color: #001D3D;
-
-			.divider {
-				span {
-					background: #FEDD12;
-
-				}
-			}
+			background-color: rgba($text-color, 0.5);
+			color: $text-color;
+             border-radius: 10px;
+			 border:$text-color;
+			
 		}
-
-		.divider {
-			span {
-				display: inline-block;
-				height: 3px;
-				background: #ADB5BD;
-
-				border-radius: 4px;
-
-				&:nth-child(1) {
-					margin-left: 4%;
-					width: 10%;
-
-				}
-
-				&:nth-child(2) {
-					margin-left: 4%;
-					width: 12%;
-
-				}
-
-				&:nth-child(3) {
-					width: 60%;
-				}
-			}
+		
 		}
-	}
+	
+
 }
+
+	

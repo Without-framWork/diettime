@@ -37,7 +37,7 @@
 	position: relative;
 	.form-control{
 		height: 45px;
-		border-radius: 25px;
+		border-radius: 10px;
 		padding: 0 15px 0px;
 		margin-bottom: 15px;
 	
@@ -104,3 +104,67 @@
 		margin-bottom: 30px;
 	}
 }
+// pionts-page
+.points-sonqr{
+	h5{
+		span{
+			margin-right: 30px;
+			color:$text3-color;
+		}
+	}
+	p{
+		margin-top: 25px;
+		color: $text4-color;
+		margin-bottom: 40px;
+	}
+	.pionts-link{
+		margin-top: 30px;
+		margin-bottom: 130px;
+		text-decoration: underline;
+		a{
+			color:$color-link;
+
+			
+		}
+		
+	}
+}
+// donation-page
+.donation-sonqr{
+	h6{
+		margin-bottom: 30px;
+		margin-top: 30px;
+		img{
+			margin-left: 15px;
+		}
+	}
+	select{
+		width: 40%;
+		height: 48px;
+		margin-bottom: 33px;
+		padding-right:188px ;
+		
+	}
+	.btn-main{
+		width: 40%;
+		border-radius: 10px;
+		text-align: center;
+	}
+	.donation-link{
+		margin-top: 20px;
+		margin-bottom: 44px;
+		text-decoration: underline;
+
+	}
+	a{
+		color:$color-link;
+
+		
+	}
+
+
+	
+	
+}
+
+
