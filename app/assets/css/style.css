@@ -2257,6 +2257,85 @@ a[href^="https://maps.google.com/maps"] {
   margin-bottom: 30px;
 }
 
+.page-card {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  border-radius: 30px;
+  position: relative;
+  padding: 40px;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  border: 1px solid #CED4DA;
+  z-index: 0;
+}
+
+.page-card .card-header {
+  background: none;
+  padding: 30px 0;
+  margin-bottom: 30px;
+}
+
+.page-card .card-header h3 {
+  margin-bottom: 0px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+
+.form-row > label {
+  flex: 1;
+}
+
+.form-row > input {
+  flex: 3;
+}
+
+.profile-form {
+  max-width: 500px;
+}
+
+.profile-avatar {
+  margin-bottom: 40px;
+}
+
+.profile-avatar .avatar-edit {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-avatar .btn-upload {
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  background: #003566;
+  width: 34px;
+  height: 34px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.profile-avatar .btn-upload i {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.empty-state {
+  color: #ADB5BD;
+}
+
+.empty-state svg {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.empty-state h3 {
+  text-align: center;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -2849,6 +2928,8 @@ a[href^="https://maps.google.com/maps"] {
   width: 100%;
   height: 98px;
   background: #FFD60A;
+  z-index: 1;
+  position: relative;
 }
 
 .menu-icon {
@@ -4009,14 +4090,6 @@ a[href^="https://maps.google.com/maps"] {
 
 .app-ver .ver-info .update-on {
   margin-top: 0;
-}
-
-.page-card {
-  background: #fff;
-  width: auto;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
-  margin-bottom: 20px;
-  overflow: hidden;
 }
 
 .search-tabs {
