@@ -3124,14 +3124,17 @@ a[href^="https://maps.google.com/maps"] {
 
 .user-menu:hover .drop-menu {
   opacity: 1;
+  display: block;
 }
 
 .user-menu .user-avatar {
   margin-right: 30px;
+  padding: 20px 0;
 }
 
 .user-menu .drop-menu {
   border-radius: 8px;
+  display: none;
   padding: 20px;
   list-style: none;
   opacity: 0;
@@ -3139,11 +3142,27 @@ a[href^="https://maps.google.com/maps"] {
   min-width: 200px;
   background: #ffffff;
   z-index: 9999;
+  top: calc(100% + 10px);
+  left: -80px;
+}
+
+.user-menu .drop-menu::after {
+  content: '';
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 12px solid #ffffff;
+  position: absolute;
+  bottom: 100%;
+  right: calc(50% - 12px);
 }
 
 .user-menu .drop-menu li {
   line-height: 46px;
   font-size: 16px;
+}
+
+.user-menu .drop-menu li:hover a {
+  color: #FFC300;
 }
 
 .user-menu .drop-menu li i {
@@ -3163,6 +3182,7 @@ a[href^="https://maps.google.com/maps"] {
 .user-ntf .ntf-icon {
   font-size: 30px;
   margin-left: 20px;
+  padding: 25px 0;
 }
 
 .user-ntf .ntf-icon:hover {
@@ -3175,7 +3195,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .user-ntf .drop-menu {
-  top: 50px;
+  top: 80px;
   position: absolute;
   min-width: 400px;
   background: #ffffff;
@@ -3184,6 +3204,17 @@ a[href^="https://maps.google.com/maps"] {
   padding: 20px;
   display: none;
   opacity: 0;
+  right: -38px;
+}
+
+.user-ntf .drop-menu::after {
+  content: '';
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 12px solid #ffffff;
+  position: absolute;
+  bottom: 100%;
+  right: 40px;
 }
 
 .user-ntf .drop-menu .ntf-dots {

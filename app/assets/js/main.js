@@ -15,7 +15,7 @@ $(document).ready(function () {
 	// 	});
 
 
-	initMap();
+	//
 
 	$('.digit-group').find('input').each(function() {
 		console.log()
@@ -99,6 +99,8 @@ $('#plus').bind('click', {increment: 1}, incrementValue);
 
 $('#minus').bind('click', {increment: -1}, incrementValue);
 
+
+initMap();
 });
 
 
