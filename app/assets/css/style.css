@@ -2474,7 +2474,8 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   color: #fff;
   min-height: 300px;
-  background: linear-gradient(45deg, #3b2481, #a174db);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .category-item {
@@ -4822,9 +4823,9 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .store-tab .nav-link {
-  border-radius: 25px;
+  border-radius: 10px;
   height: 50px;
-  padding: 0 30px;
+  padding: 0 80px;
   line-height: 50px;
   color: #003566;
   font-size: 20px;
@@ -4844,6 +4845,10 @@ a[href^="https://maps.google.com/maps"] {
   background: #FEDD12;
   color: #003566;
   font-weight: 600;
+}
+
+.store-tab .nav-link img {
+  margin-left: 15px;
 }
 
 .store-nav {
@@ -5089,7 +5094,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .store-item .store-img {
-  height: 150px;
+  height: 138px;
   overflow: hidden;
   border-bottom: 1px solid #ADB5BD;
 }
