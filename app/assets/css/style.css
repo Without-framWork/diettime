@@ -525,13 +525,6 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 12px;
 }
 
-.form-control:placeholder-shown {
-  /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-  color: #71768a;
-  opacity: 1;
-  font-size: 12px;
-}
-
 /*
 .select {
     position: relative;
@@ -3143,6 +3136,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #ffffff;
   z-index: 9999;
   top: calc(100% + 10px);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   left: -80px;
 }
 
@@ -3899,19 +3893,14 @@ a[href^="https://maps.google.com/maps"] {
 
 #hero {
   position: relative;
-  height: 600px;
+  height: 530px;
   background-size: cover;
-  background-repeat: no-repeat;
   background-repeat: no-repeat;
 }
 
 #hero .hero-title {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 50%;
+  padding-top: 70px;
+  text-align: center;
   color: #ffff;
   z-index: 3;
   line-height: 1.7;
@@ -3919,12 +3908,19 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 #hero .hero-title h4 {
+  line-height: 36px;
+  display: inline-block;
   text-align: center;
-  padding: 0 651px;
+  max-width: 650px;
+  margin-bottom: 50px;
 }
 
 #hero .hero-title span {
   margin: 0 160px;
+}
+
+#hero .hero-title h3 {
+  margin-bottom: 100px;
 }
 
 #hero .hero-title h3 img {
@@ -3933,35 +3929,54 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 #hero .hero-title form {
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  transform: translate(-50%, -50%);
-  width: 30%;
-  height: 10%;
   color: #ffff;
   z-index: 3;
   border-radius: 10px;
 }
 
-#hero .hero-title form input {
-  height: 68px;
+#hero .hero-title form input[type="text"] {
+  vertical-align: top;
+  height: 80px;
   border-radius: 10px;
+  padding: 0 55px;
+  font-size: 24px;
+  display: inline-block;
+  width: 650px;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+}
+
+#hero .hero-title form .search-input {
+  display: inline-block;
+  position: relative;
+}
+
+#hero .hero-title form .search-input i {
+  position: absolute;
+  color: #ABABAB;
+  top: calc(50% - 15px);
+}
+
+#hero .hero-title form .search-input .icon-location {
+  right: 25px;
+  font-size: 26px;
+}
+
+#hero .hero-title form .search-input .icon-target {
+  left: 45px;
+  font-size: 30px;
 }
 
 #hero .hero-title form input[type="button"] {
-  position: absolute;
-  top: 0;
-  left: -145px;
-  width: 20%;
+  vertical-align: top;
+  height: 80px;
+  padding: 0 40px;
   background: #003566;
   color: #fff;
   border-radius: 10px;
-  font-size: 20px;
-}
-
-#hero .hero-title form ::placeholder {
-  padding-right: 20px;
+  font-size: 24px;
+  display: inline-block;
 }
 
 /*$breakpoints: (
