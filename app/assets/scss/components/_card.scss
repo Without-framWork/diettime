@@ -162,9 +162,43 @@
 		
 	}
 
-
-	
-	
 }
+// orders
+.card-content{
+	.orders-item{
+		padding:10px 20px;
+		h4{
+			color:$color-link;
+			p{
+				margin-right: 140px;
+				margin-top: -20px;
+				time{
+					color:$border-color;
+				}
+			}
+			
+
+		}
+		p{
+			img{
+				margin-left: 25px;
+			}
+			span{
+			    margin-right: 160px;
+                 padding: 20px;
+                 font-size: 20px;
+	             color:$border-color;
+    }
+			}
+		}
+		 span{
+		 	margin-right: 80px;
+		 }
+		
+		
+	}
+	
+
+
 
 

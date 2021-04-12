@@ -2310,6 +2310,38 @@ a[href^="https://maps.google.com/maps"] {
   color: #003566;
 }
 
+.card-content .orders-item {
+  padding: 10px 20px;
+}
+
+.card-content .orders-item h4 {
+  color: #003566;
+}
+
+.card-content .orders-item h4 p {
+  margin-right: 140px;
+  margin-top: -20px;
+}
+
+.card-content .orders-item h4 p time {
+  color: #ADB5BD;
+}
+
+.card-content .orders-item p img {
+  margin-left: 25px;
+}
+
+.card-content .orders-item p span {
+  margin-right: 160px;
+  padding: 20px;
+  font-size: 20px;
+  color: #ADB5BD;
+}
+
+.card-content span {
+  margin-right: 80px;
+}
+
 .page-card {
   margin-right: auto;
   margin-left: auto;
