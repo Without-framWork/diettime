@@ -3646,6 +3646,13 @@ a[href^="https://maps.google.com/maps"] {
   transform: translateX(0);
 }
 
+.w-25 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20% !important;
+  flex: 0 0 25% !important;
+  max-width: 25%;
+}
+
 .w-20 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20% !important;
@@ -4825,7 +4832,7 @@ a[href^="https://maps.google.com/maps"] {
 .store-tab .nav-link {
   border-radius: 10px;
   height: 50px;
-  padding: 0 80px;
+  padding: 0 30px;
   line-height: 50px;
   color: #003566;
   font-size: 20px;
@@ -5067,7 +5074,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .search-form input {
   height: 50px;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .search-form input[type="text"] {
