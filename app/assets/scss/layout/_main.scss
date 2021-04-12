@@ -16,6 +16,10 @@
 		h3{
 			margin-bottom: 0px;
 		}
+		i{
+			margin-left: 10px;
+		}
+		border-bottom:1px solid #DEE2E6;
 	}
 }
 
@@ -77,6 +81,50 @@
 	}
 }
 
+
+
+.addresses-list{
+	.address-content{
+		display: table-cell;
+		// border: 1px solid grey;
+		i{
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		
+	}
+	.address-control{
+		display: table-cell;
+		// border: 1px solid grey;
+		a{
+			i{
+				font-size: 24px;
+			}
+			&:nth-child(2){
+				margin-left: 50px;
+			}
+		}
+	}
+	.address-item{
+		display: table-row;
+		// display: flex;
+		.address-info{
+			display: inline-block;
+			margin-left: 40px;
+			font-weight: 300; 
+			font-size: 16px;
+			margin-bottom: 40px;
+		}
+		.address-type{
+			margin-left: 50px;
+			color: #ADB5BD;
+		
+
+
+
+		}
+	}
+}
 // .form-row > input,
 // .form-row > button {
 // 	padding: .5em;

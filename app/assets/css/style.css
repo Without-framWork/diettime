@@ -2327,10 +2327,15 @@ a[href^="https://maps.google.com/maps"] {
   background: none;
   padding: 30px 0;
   margin-bottom: 30px;
+  border-bottom: 1px solid #DEE2E6;
 }
 
 .page-card .card-header h3 {
   margin-bottom: 0px;
+}
+
+.page-card .card-header i {
+  margin-left: 10px;
 }
 
 .form-row {
@@ -2387,6 +2392,44 @@ a[href^="https://maps.google.com/maps"] {
 
 .empty-state h3 {
   text-align: center;
+}
+
+.addresses-list .address-content {
+  display: table-cell;
+}
+
+.addresses-list .address-content i {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.addresses-list .address-control {
+  display: table-cell;
+}
+
+.addresses-list .address-control a i {
+  font-size: 24px;
+}
+
+.addresses-list .address-control a:nth-child(2) {
+  margin-left: 50px;
+}
+
+.addresses-list .address-item {
+  display: table-row;
+}
+
+.addresses-list .address-item .address-info {
+  display: inline-block;
+  margin-left: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.addresses-list .address-item .address-type {
+  margin-left: 50px;
+  color: #ADB5BD;
 }
 
 @media (min-width: 1200px) {
@@ -3084,6 +3127,20 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
 }
 
+.user-ntf .ntf-icon {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.user-ntf .ntf-icon:hover {
+  cursor: pointer;
+}
+
+.user-ntf .ntf-icon:hover .drop-menu {
+  display: block;
+  opacity: 1;
+}
+
 .user-ntf .drop-menu {
   top: 50px;
   position: absolute;
@@ -3092,6 +3149,8 @@ a[href^="https://maps.google.com/maps"] {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 8px;
   padding: 20px;
+  display: none;
+  opacity: 0;
 }
 
 .user-ntf .drop-menu .ntf-dots {
