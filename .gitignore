@@ -3,3 +3,4 @@ Icon
 /node_modules/*
 node_modules/
 app/*.html
+app/assets/css/style.css
