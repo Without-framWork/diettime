@@ -1,52 +1,121 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-
-
-<div class="container">
-
-	<div id="pro-wizard">
-		<ol class="step-indicator">
-			<li class="active">
-				<div class="caption hidden-xs hidden-sm">
-					عنوان الشحن
+<section class="common-section">
+	<div class="section-content">
+		<div class="container">
+			<div class="section-title">
+				<h2> <i class="icon-cart" style="color:#FFD60A;"></i> سلة مشترياتك</h2>
+				<div class="divider">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
-				<div class="step">1</div>
-	
-			</li>
-			<li class="">
-				<div class="caption hidden-xs hidden-sm">
-					خيارات الدفع
+			</div>
+			<div class="row">
+					<div class="col-md-8">
+					<div class="cart-content">
+
+				<div class="cart-item">
+				
+					<h5 class="item-store"> كرم الشام </h5>
+					<p class="item-info">  <img  src="assets/images/sandwich.png">ساندوتش دجاج بالكاري لارج + نص فرخه مشوية + 4 فت شاورما   </p>
+					<p class="item-info">  <img  src="assets/images/cart-01-fish.png">طبق رز + سلطة + لتر كولا + صوص باربيكيو + 4 فتة شاورما    </p>
+					
+					<div class="item-control">
+
+
+						
+						<div class="order-summary-1">
+							<ul class="summary-list-1">
+							
+								<li>
+									<span class="summary-name">مجموع الطلبات</span>
+									<span class="summary-cost">240 ج.م</span>
+								</li>
+								<li>
+									<span class="summary-name">رسوم التوصيل</span>
+									<span class="summary-cost">12 ج.م</span>
+								</li>
+							
+							</ul>
+							<div class="order-total">
+								<span class="total-name">إجمالي </span>
+								<span class="total-cost">250     ج.م</span>
+
+							</div>
+							
+						<a class="btn btn-main" href="#">تنفيذ الطلب</a>
+						</div>
+					</div>
 				</div>
-				<div class="step">2</div>
+				<div class="cart-item">
+					<h5 class="item-store">  عيش وملح   </h5>
+					<p class="item-info">  <img  src="assets/images/sandwich.png">ساندوتش دجاج بالكاري لارج + نص فرخه مشوية + 4 فت شاورما   </p>
+					<p class="item-info">  <img  src="assets/images/cart-01-fish.png">طبق رز + سلطة + لتر كولا + صوص باربيكيو + 4 فتة شاورما    </p>
+					<div class="item-control">
+						
+						<div class="order-summary-1">
+							<ul class="summary-list-1">
+							
+								<li>
+									<span class="summary-name">مجموع الطلبات</span>
+									<span class="summary-cost">240 ج.م</span>
+								</li>
+								<li>
+									<span class="summary-name">رسوم التوصيل</span>
+									<span class="summary-cost">12 ج.م</span>
+								</li>
+							
+							</ul>
+							<div class="order-total">
+								<span class="total-name">إجمالي </span>
+								<span class="total-cost">250 ج.م</span>
 
-			</li>
-			<li class="">
-				<div class="caption hidden-xs hidden-sm">
-					تم الطلب بنجاح
+							</div>
+							
+						<a class="btn btn-main" href="#">تنفيذ الطلب</a>
+						</div>
+					</div>
 				</div>
-				<div class="step">3</div>
-			</li>
-		</ol>
-		<div class="step-content">
+				<div class="cart-item">
+					<h5 class="item-store"> نص رغيف</h5>
+					<p class="item-info">  <img  src="assets/images/sandwich.png">ساندوتش دجاج بالكاري لارج + نص فرخه مشوية + 4 فت شاورما   </p>
+					<p class="item-info">  <img  src="assets/images/cart-01-fish.png">طبق رز + سلطة + لتر كولا + صوص باربيكيو + 4 فتة شاورما    </p>
+					<div class="item-control">
+					
+						
+						<div class="order-summary-1">
+							<ul class="summary-list-1">
 
+							
+								<li>
+									<span class="summary-name">مجموع الطلبات</span>
+									<span class="summary-cost">240 ج.م</span>
+								</li>
+								<li>
+									<span class="summary-name">رسوم التوصيل</span>
+									<span class="summary-cost">12 ج.م</span>
+								</li>
+							
+							</ul>
+							<div class="order-total">
+								<span class="total-name">إجمالي </span>
+								<span class="total-cost">250 ج.م</span>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<label class="control control--radio">شارع 16 محمد كامل - ميامى - الاسكندريه
-							<input type="radio" name="radio" checked="checked"/>
-							<div class="control__indicator"></div>
-						</label>
-						<label class="control control--radio">شارع 16 محمد كامل - ميامى - الاسكندريه
-							<input type="radio" name="radio"/>
-							<div class="control__indicator"></div>
-						</label>
-						<button type="submit" class="btn btn-main">التالي</button>
+							</div>
+							
+						   <a class="btn btn-main" href="#">تنفيذ الطلب</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+						
 
 					</div>
 					
-					<div class="col-md-6">
+					<div class="col-md-4">
 						<div class="order-summary">
 							<ul class="summary-list">
 								<li>
@@ -82,46 +151,10 @@
 					</div>
 				</div>
 
-			</div>
-
-
-			
 		</div>
-		<!---->
-		<!---->
-		<!-- <div class="step-wrapper active"><button disabled="disabled" class="btn btn-primary">Back</button> <button
-				class="btn btn-primary">Next</button>
-		</div>
-		<div class="step-wrapper"><button disabled="disabled" class="btn btn-primary">Back</button> <button
-				class="btn btn-primary">Next</button>
-		</div>
-		<div class="step-wrapper"><button disabled="disabled" class="btn btn-primary">Back</button> <button
-				class="btn btn-primary">Next</button>
-		</div> -->
 	</div>
-</div>
+</section>
 
 
 
-
-
-
-
-<!-- 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-</div> -->
 {% endblock %}

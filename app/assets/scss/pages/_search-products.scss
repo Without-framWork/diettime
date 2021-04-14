@@ -1,0 +1,42 @@
+//products-filter
+.products-filter{
+	.title-products-filter{
+		margin:-33px 50px 30px 0;
+		color:$color-link;
+		.delet-all{
+			margin-right:118px;
+			
+		   a{
+		       color:$color-link;
+		    font-size:16px;
+			}
+		}
+       
+	}
+    .filter-list{
+            h4{
+		       color:$color-link;
+            }
+            .city-form{
+             select{
+                width:329px;
+                height:41px;
+                border-radius: 10px;
+                color:$border-color;
+                padding:5px 25px;
+                  appearance: none;
+
+
+                
+                
+
+                
+
+                    }
+            }
+              
+        }
+       
+         
+	
+}
