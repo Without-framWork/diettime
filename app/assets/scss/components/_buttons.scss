@@ -41,22 +41,20 @@
 
 .btn-main{
     height: 48px;
-    border-radius: 0;
     line-height: 46px;
-    padding: 0 40px;
+    padding: 0 30px;
     font-weight: 600;
     font-size: 16px;
-    background: #003566; 
+    background: #E33A2D; 
     transition: $main-transition;
     color: #ffffff;
-		border: 1px solid #003566;
-		border-radius: 10px;
+		border: none;
+		border-radius: 25px;
+    cursor: pointer;
      &:hover{
         box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);  
         color: #fff;
         border-color: #003566;
-        background: rgba(0,0,0,0);
-        color: #003566;
     }
 }
 .btn-main {

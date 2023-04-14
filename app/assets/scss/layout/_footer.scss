@@ -1,90 +1,62 @@
-#footer{
-    background: #003566;
-	position: relative;
-	z-index: 1;
-	 .footer-content{
-		padding: 80px 0;
-	 }
-	 .copyright{
-		background: #f2f5f9;
-		line-height: 50px;
-		text-align: center;
-		a{
-			color: $color-lighter;
-		}
-	 }
-	 h4{
-		padding-bottom: 20px;
-		margin-bottom: 0;
-		font-weight: 400;
-		color: $color-lighter;
-	 }
-
-}
-.social-widget{
-
-	text-align: center;
-	.social-links{
-		margin-bottom: 20px;
-		i{
-			font-size: 20px;
-			color: $color-lighter;
-		}
-	}
-	a{
-		font-size: 16px;
-		color: $color-lighter;
-	}
-
-}
-
-.menu-links{
-	padding-left: 20px;
-	list-style: none;
-    li{
-			line-height: 40px;
-			// list-style: disc;
-			padding-bottom: 5px;
-			font-size: 20px;
-			font-weight: 300;
-			// color: #777;
-        a{
-					color: $color-lighter;
-            &:hover{
-							//color:$primary-color;
-							color: #00A6ED;
-            }
-        }
+#footer {
+  color: $text-color;
+  background:antiquewhite;
+  .footer-content {
+    padding: 80px 0;
+  }
+  .hours-of-delivery {
+    float: left;
+    p {
+      margin-bottom: 70px;
     }
-}
-
-.scrollToTop {
-    position: fixed;
-    bottom: 30px;
-    right: -70px;
-    font-size: 21px;
-    z-index: 3;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    .app-stores {
+      a {
+        margin-left: 10px;
+      }
+    }
+  }
+  .social-widget {
     text-align: center;
-    padding: 0;
-    background: $primary-color;
-    color: #ffffff;
-    transform: translateX(100%);
-    -webkit-transition: all 0.25s ease-in-out 0s;
-    -moz-transition: all 0.25s ease-in-out 0s;
-    -o-transition: all 0.25s ease-in-out 0s;
-    transition: all 0.25s ease-in-out 0s;
-    z-index: 9998;
-    &:hover{
-        cursor: pointer;
-        background: #00ae56;
-        opacity: 0.8;
+    h5 {
+      text-align: center;
+      color: $text2-color;
     }
-}
-.scrollToTop.active {
-    right: 30px;
-    transform: translateX(0);
-}
+    .social-links {
+      display: inline-grid;
+      padding: 20px;
+    }
+    a {
+      color: $text-color;
+    }
+    i {
+      color: $text2-color;
+    }
+    .social-links li {
+      text-align: right;
+    }
+  }
+  .contact-infro {
+    p {
+      width: 266px;
+      line-height: 30px;
+      font-weight: 700;
+    }
+    .social-contact {
+      display: inline-flex;
+      list-style: none;
+      a {
+        font-size: 20px;
+        color: $text2-color;
+        margin-left: 20px;
+      }
+    }
+  }
+  .copy-right {
+    margin: auto;
 
+    p {
+      padding-top: 80px;
+      font-size: 20px;
+    }
+  }
+}

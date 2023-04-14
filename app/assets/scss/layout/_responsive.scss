@@ -1,496 +1,247 @@
 // Start Media From 1200px To 0px
 @include media("<=desktop") {
-  .section-content {
-    .gift-image {
-      text-align: center;
+  //home
+
+  .navbar-nav .nav-item a {
+    padding: 0 10px;
+  }
+  #footer .social-widget .social-links {
+    padding: 10px;
+  }
+  .plans-box p {
+    font-size: 16px;
+  }
+  .plans-box h2 {
+    font-size: 16px;
+  }
+  .image-hero {
+    img {
       max-width: 100%;
-      img {
-        margin-right: 0;
-      }
+      margin-right: 182px;
+      margin-top: 99px;
     }
   }
-  #hero .hero-title h4 {
-    max-width: 530px;
+  //contact
+  .contact-wrap {
+    max-width: 100%;
   }
-  //about
-  .col-md-6 {
+  .form-contact input {
+    max-width: 100%;
+  }
+  textarea {
+    max-width: 100%;
+  }
+  .image-contact {
+    padding: 70px;
     img {
       max-width: 100%;
     }
   }
   //category
-  .store-img {
-    text-align: center;
-  }
   .col.w-20 {
-    min-width: 24%;
-  }
-  //category
-  .store-item .store-img {
-    height: auto;
-  }
-  //search-products
-  .products-filter .filter-list .city-form select {
-    max-width: 100%;
-  }
-  .col.w-25 {
     min-width: 33%;
   }
-} //End Media
-// Start Media From 992px To 1199px
-@include media(">=tablet", "<desktop") {
-  .navbar-nav .nav-item a {
-    padding: 0 13px;
-  }
-  .app-download .app-mockup {
-    right: calc(50% - 239px);
-  }
-  .menu-icon {
-    justify-content: space-between;
-  }
-  //account
-  .account-tabs .nav-item {
-    padding: 21px 19px;
-    margin-left: 20px;
-  }
-  .link-forget {
-    margin-right: 40% !important;
-  }
-
-  //about
-  .section-title {
-    margin-bottom: 40px;
-  }
-  .about-expert p {
-    font-size: 19px;
-  }
-  //jobs
-  .jobs-filter .filter-list .control {
-    font-size: 13px;
-  }
-
-  //orders
-  .orders-item p span {
+  //bussiness
+  .cart-item .price p {
     margin-right: 100px;
   }
-  
-  //orders
-  .orders-item .order-content .order-price {
-    left: 50px;
+  .cart-item .type p {
+    font-size: 25px;
   }
-  //cart-01
-  .orders-item .order-content .order-info {
-    max-width: 100%;
+  .cart-item .number p {
+    font-size: 25px !important;
   }
-  
+  .cart-item .days p {
+    font-size: 25px !important;
+  }
+} //End Media
+
+// Start Media From 992px To 1199px
+@include media(">=tablet", "<desktop") {
+  //bussiness
+  .cart-item .price p {
+    margin-right: 30px;
+  }
+  .cart-item .type p {
+    font-size: 20px;
+  }
+  .cart-item .number p {
+    font-size: 20px !important;
+  }
+  .cart-item .days p {
+    font-size: 20px !important;
+  }
 } //End Media
 // Start Media From 991px To 0px
 @include media("<=tablet") {
-  .app-content {
-    padding: 40px !important;
+  //main
+  .image-hero img {
+    margin-right: 150px;
+    margin-top: 130px;
   }
-  .app-mockup {
-    display: none;
+  .plans-box h2 {
+    font-size: 14px;
+    font-weight: bold;
   }
-  .app-text {
-    max-width: 100% !important;
-    text-align: center !important;
+  .plans-box p {
+    font-size: 12px;
   }
-  .app-stores {
+  //footer
+  .col-sm-12 {
+    min-width: 100%;
     text-align: center;
-  }
-  .downlad-stores {
-    background-image: none !important;
-  }
-  .counter-item p {
-    font-size: 40px;
-  }
-  .counter-item-text p {
-    font-size: 30px;
-  }
-  .downlad-stores h3 {
-    padding-top: 10px;
     margin-bottom: 40px;
   }
-  .social-widget a {
-    font-size: 15px;
+  #footer .contact-infro p {
+    margin: auto;
+    width: 500px;
   }
-  .col-sm-2 {
-    img {
-      max-width: 100%;
-      margin-top: 22px;
-    }
-  }
-  .enter-logo {
-    padding: 5px;
-  }
-  //avatar-user
-  .user-avatar {
-    display: none;
-  }
-  //account
-  .account-tabs .nav-item {
-    padding: 21px 8px;
-    margin-left: 20px;
-    font-size: 16px;
-  }
-
-  .control {
-    font-size: 16px;
-  }
-  //about
-  .about-expert h2 {
-    margin-bottom: 5px;
-  }
-  .about-expert p {
-    font-size: 14px;
-    font-weight: 600;
-  }
-  .section-title {
-    margin-bottom: 15px;
-  }
-  //addresses
-  .addresses-list .address-control {
-    display: inline-table;
-  }
-  .addresses-list .address-item .address-info {
-    margin-left: 13px;
-    font-size: 14px;
-    font-weight: 300;
-  }
-
-  .store-item .store-info {
-    padding: 10px 0;
-  }
-  //cart01
-  .cart-item .order-summary-1 {
-    width: 100%;
-  }
-  //cart0-1
-  .cart-content .orders-item .item-control {
-    position: static;
-  }
-  .basket-content {
-    min-width: 100%;
-  }
-  .order-summary {
-    min-width: 100%;
-  }
-  //store-offer
-  .offers-list .offer-item .offer-price {
-    position: static;
+  .col-sm-6 {
+    min-width: 50%;
     text-align: center;
-    height: 70px;
   }
   //category
-  .search-wrap {
-    display: block;
-    position: relative;
-  }
-  .search-wrap h3 {
-    text-align: center;
-  }
-  .search-form {
-    max-width: 100%;
-  }
-  .search-wrap .btn-filter i {
-    position: absolute;
-    left: 0;
-    top: 30px;
-  }
-  //search-products
-  .col.w-25 {
+  .col.w-20 {
     min-width: 50%;
   }
-} //End Media
-@include media("<=847px") {
-  #hero {
-    height: 600px;
+  //bussiness
+  .cart-item .price p {
+    margin-right: 20px;
   }
-  #hero .hero-title form input[type="text"] {
+  .cart-item .type p {
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  .cart-item .number p {
+    font-size: 16px !important;
+    margin-left: 40px !important;
+  }
+  .cart-item .days p {
+    font-size: 16px !important;
+    margin-left: 40px !important;
+  }
+  .cart-item .price p {
+    font-size: 30px;
+  }
+  .cart-item .item-control {
+    top: 156px;
+  }
+  //orders
+  .order-content .input-names .form-orders {
+    max-width: 295px;
+  }
+  .order-content .options-list {
     max-width: 100%;
-    margin-left: 0;
+    display: inline-flex;
   }
-  #hero .hero-title form input[type="button"] {
-    margin: 20px;
+  // navbar
+  .navbar-nav {
+    background-color: #fff;
+    margin-top: 30px;
+    text-align: center;
   }
-  #hero .hero-title form .search-input .icon-target {
-    top: 30px;
-  }
-  #hero .hero-title form .search-input .icon-location {
-    top: 30px;
+  .navbar-buttons {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
   }
 } //End Media
 // Start Media From 768px To 991px
 @include media(">=phablet", "<tablet") {
   //jobs
-  .jobs-filter {
-    padding: 15px;
-  }
-
-  .jobs-filter .filter-list .control {
-    font-size: 11px;
-    font-weight: 600;
-  }
-  .control {
-    padding-right: 26px;
-  }
-
-  //store
-  .store-tab .nav-link {
-    padding: 0 20px;
-    margin-left: 9px;
-  }
-  //account
-  .link-forget {
-    margin-right: 26% !important;
-  }
-  
-  
-  //catogery
-  .col.w-20 {
-    min-width: 33%;
-  }
-  .products-filter .option-filter .btn.btn-close{
-    left: 7px;
-  }
 } //End Media
 // Start Media From 767px To 0px
 @include media("<=phablet") {
-  .downlad-stores {
-    .app-stores {
-      img {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 15px;
-      }
-    }
+  #footer .social-widget .social-links {
+    padding: 4px;
   }
-  .app-content {
-    .app-stores {
-      img {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 15px;
-      }
-    }
+  .image-hero img {
+    margin-top: 0;
   }
-
-  .counter-item p {
-    margin-top: 40px;
-  }
-  .col-md-5 {
-    padding: 40px;
-  }
-  .menu-links li {
-    font-size: 14px;
-  }
-
-  .top-bar {
-    .lang-menu {
-      margin-left: 0px;
-    }
-
-    .top-links {
-      margin-bottom: 10px;
-      li {
-        margin-left: 0;
-        margin-right: 50px;
-      }
-    }
-  }
-  //about
-  .about-expert p {
-    margin-bottom: 20px;
-  }
-  //addreses
-  .addresses-list .address-item .address-info {
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 30px;
-  }
-  .addresses-list .address-item .address-type {
-    margin-right: 50px;
-  }
-
-  //steps
-  .btn:not(:disabled):not(.disabled) {
-    margin-bottom: 40px;
-  }
-  //store
-  .store-tab {
-    display: flow-root;
+  .hero-title {
     text-align: center;
-    a {
-      margin-bottom: 15px;
-    }
   }
-  .store-section .menu-img {
-    width: 104px;
-    height: 104px;
-    margin-left: 10px;
+  #footer .copy-right p {
+    font-size: 18px;
   }
-
-  //rating
-  .users-rating .rating-date .date-time {
-    font-size: 13px;
+  .plans-box p {
+    font-size: 20px;
   }
-  .date-time {
-    font-size: 13px;
+  .plans-box h2 {
+    font-size: 20px;
   }
-
-  //jobs
-  .jobs-filter {
-    margin-bottom: 40px;
-    padding: 50px;
+  .plans {
+    margin-top: 130px;
   }
-  .col.w-20 {
-    min-width: 100%;
-  }
-
-  //account
-
-  .link-forget {
-    margin-right: 40% !important;
-  }
-  .orders-item .order-content .order-price {
+  //bussiness
+  .cart-item .item-control {
     position: static;
     text-align: center;
-    height: 80px;
   }
-  //account
-  .account-tabs .nav-item {
-    padding: 21px 38px;
-    margin-left: 20px;
-    font-size: 16px;
-  }
-  .account-wrap .signin-form {
-    padding-left: 0;
-  }
-  //catogery
-  .col.w-20 {
-    min-width: 50%;
-  }
-  //store-about
-  .col {
-    min-width: 100%;
-    margin-bottom: 40px;
-  }
-  //steps
-  .payment-tabs {
-    margin-bottom: 70px;
-  }
-  .products-filter .filter-list .city-form select {
+  .cart-item .business-infro {
+    margin-bottom: 20px;
     min-width: 100%;
   }
-  .products-filter .option-filter{
+  .cart-item .price p {
+    margin-right: 50px;
+  } //orders
+  .order-content .input-names {
+    display: block;
+  }
+  .order-content .input-names .form-orders {
     min-width: 100%;
   }
-
-  .products-filter .option-filter .btn.btn-filter{
-    margin-top: 10px;
+  .order-content .options-list {
+    display: block;
   }
-
-} //End Media
-@include media("<=560px") {
-  #hero .hero-title form input[type="button"] {
-    margin-top: 20px !important;
+  .order-content .options-list select {
+    min-width: 100%;
+    margin-bottom: 20px;
   }
-} //End Media
-@include media("<=575px") {
-  .footer-content {
-    .col-sm-3 {
-      width: 50%;
-      padding: 15px;
-    }
-    .col-sm-4 {
-      width: 40%;
-      padding: 15px;
-    }
-    .col-sm-2 {
-      width: 40%;
-      padding: 20px;
-    }
-  }
-  .social-widget {
-    text-align: right;
-  }
-} //End Media
-@include media("<=652px") {
-  #hero .hero-title form input[type="text"] {
-    width: 100%;
-  }
-  #hero .hero-title form input[type="button"] {
-    margin: 0 10px;
-  }
-} //End Media
-// Start Media From 480px To 767px
-@include media(">=phone", "<phablet") {
 } //End Media
 //Start Media From 0px To 550px
 @include media("<=550px") {
-  #hero .hero-title h4 {
-    max-width: 508px;
-    font-size: 16px;
+  .image-hero img {
+    margin-right: 83px;
   }
-  .orders-item .order-content .order-info {
-    font-size: 13px;
-    font-weight: 400;
+  .col-sm-6 {
+    margin-bottom: 20px;
   }
-
-  .account-tabs .nav-item {
-    padding: 20px;
-    margin-left: 20px;
-    font-size: 16px;
+  #footer .hours-of-delivery {
+    float: none;
   }
-  //donation
-  .donation-sonqr select {
+  #footer .copy-right p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  //account
+  .form-group .form-control {
+    max-width: 100%;
+  }
+  .account-wrap .btn-main {
+    max-width: 100%;
+  }
+  //category
+  .col.w-20 {
     min-width: 100%;
   }
 } //End Media
 //Start Media From 0px To 480px
 @include media("<=480px") {
-  .top-bar {
-    .lang-menu {
-      margin-left: 0px;
-    }
-
-    .top-links {
-      margin-bottom: 10px;
-      li {
-        margin-left: 0;
-        margin-right: 15px;
-      }
-    }
-  }
-  #hero .hero-title h4 {
-    max-width: 412px;
-    font-size: 14px;
-  }
-  //store-offer
-
-  //store
-  .store-section .menu-img {
-    margin-left: 5px;
-  }
-  //orders
-  .orders-item .order-content .order-locat {
-    font-size: 14px;
-  }
-
-  .col.w-20 {
-    min-width: 100%;
-  }
-  .btn:not(:disabled):not(.disabled) {
+  #footer .contact-infro p {
     max-width: 100%;
   }
-  .donation-sonqr .btn-main {
-    padding: 0 140px;
+  //bussines
+  .cart-item .price p {
+    margin-right: 30px;
   }
-  //search-products
-
-  .col.w-25 {
-    min-width: 100%;
+  .cart-item .type p {
+    margin-left: 20px;
+  }
+  .cart-item .number p {
+    margin-left: 20px !important;
+  }
+  .cart-item .days p {
+    margin-left: 20px !important;
   }
 } //End Media

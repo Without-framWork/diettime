@@ -1,42 +1,63 @@
-.orders-item {
-  padding: 10px 20px;
-  border: 1px solid $border-color;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  position: relative;
+.order-content {
+  max-width: 907px;
+  margin: auto;
+  box-shadow: 0px 15px 20px rgba(118, 130, 183, 0.18);
+  background: #fff;
+  border-radius: 40px;
+  padding: 30px;
+
   .order-title {
-    .order-date {
-      position: absolute;
-      top: 12px;
-      right: 140px;
-      color: #adb5bd;
+    h1 {
+      text-align: right;
+      margin-bottom: 50px;
     }
   }
-  .order-img {
-    float: right;
-    margin-left: 15px;
+
+  .price {
+    .price-meal {
+      font-size: 30px;
+      margin-right: -5px;
+    }
   }
-  .order-content {
-    .order-info {
-      font-size: 16px;
-      color: #000814;
-      line-height: 1.5em;
-      margin-bottom: 30px;
+  .input-names {
+    display: inline-flex;
+    .form-orders {
+      max-width: 400px;
+      height: 60px !important;
+      margin-left: 20px !important;
     }
-    .order-locat {
-		color: #adb5bd;
-		margin-right: 70px;
-		font-size: 16px;
+  }
+  .options-list {
+    margin-bottom: 50px;
+    select {
+      width: 400px;
+      padding: 15px;
+      border-radius: 40px;
+      margin-left: 20px;
+      color: $border-color;
+      outline: none;
+      border: 1px solid #ced4da;
+      // style arrow
+
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-repeat: no-repeat;
+      background-position: left 30px top 50%;
+      background-size: 25px;
     }
-    .order-price {
-      font-size: 20px;
-	  color: #adb5bd;
-      font-weight: 600;
-      position: absolute;
-      left: 100px;
-      top: 0px;
-      bottom: 0;
-      line-height: 115px;
-    }
+   
+  }
+  .form-adders {
+    width: 822px !important;
+    height: 60px;
+  }
+  .order-notes {
+    width: 822px;
+    height: 120px;
+    padding: 30px;
+  }
+  .btn-orders {
+    text-align: center;
   }
 }

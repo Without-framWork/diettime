@@ -1,131 +1,93 @@
-.cart-content {
-
-	.btn-all {
-		margin-bottom: 30px;
+.section-title{
+	h1{
+		text-align: center;
+		margin-bottom: 90px;
+		color: $text2-color;
 	}
+}
+
 
 
 .cart-item {
-	border-radius: 30px;
-	padding: 30px;
-	border: 1px solid #ADB5BD;
-	position: relative;
-	margin-bottom: 30px;
-	min-height: 255px;
-
-
-	.item-control {
-
-		position: absolute;
-		top: 30px;
-		left: 30px;
-
-		.btn-main {
-			height: 40px;
-			line-height: 38px;
-			
-
-		}
-
-		.btn-close {
-			color: #003566;
-			font-size: 20px;
-
-		}
-	}
-
-	.item-store {
-		margin-bottom: 30px;
-	}
-
-	.item-info {
-		margin-bottom: 30px;
-	}
-
-	.item-area {
-
-		color: #ABABAB;
-
-		i {
-			margin-left: 10px;
-		}
-	}
-
-}
+  border-radius: 40px;
+  padding: 50px;
+  background: #fff;
+  box-shadow: 0px 15px 20px rgba(118, 130, 183, 0.18);
+  position: relative;
+  margin-bottom: 90px;
+  min-height: 255px;
+  .item-store{
+	color: $text2-color;
+	margin-bottom: 50px;
 }
 
+  .item-control {
+    position: absolute;
+    top: 155px;
+    left: 30px;
+
+    .btn-main {
+      height: 40px;
+      line-height: 38px;
+    }
+  }
+  .business-infro{
+	  display: inline-flex;
+	  .days{
+		  p{
+			  font-size: 30px;
+			  color: $text-color;
+			  text-align: center;
+			  opacity: 50%;
+			  margin-left: 80px;
+			  margin-bottom: 30px;
+
+		  }
+	  }
+	  .number{
+		  p{
+			font-size: 30px;
+			color: $text-color;
+			text-align: center;
+			opacity: 50%;
+			margin-left: 80px;
+			margin-bottom: 30px;
 
 
 
-//cart-01
-
-.cart-item{
-
-	h5{
-			color:$color-link;
-
-	}
-	p{
-		img{
-			margin-left:10px;
-		}
-	}
-	.order-summary-1 {
-	width: 215px;
-
-	.order-total {
-		font-size: 20px;
-		padding: 15px 0 20px 0;
-
-		.total-cost {
-			float: left;
-			margin-bottom: 0;
+		  }
+	  }
+  }
+	  .type{
+		  p{
+			font-size: 30px;
+			color: $text-color;
+			text-align: center;
+			opacity: 50%;
+			margin-left: 80px;
+			margin-bottom: 30px;
 
 
+		  }
+	  }
+	  .price{
+		  p{
+			  font-size: 60px;
+			  color: $text2-color;
+			  font-weight: bold;
+			  padding: 10px;
+			  margin-right: 80px;
 
-		}
+		  }
+		  span{
+			  font-size: 20px;
+			  text-align: center;
+		  }
+	  }
+  
 
-	}
+  
 
-	.btn-main {
-		margin-bottom: 20px;
-		width: 100%;
-	}
+  
 }
-
-.summary-list-1 {
-	list-style: none;
-
-	li {
-		
-
-		.summary-name {
-			margin-bottom: 0;
-		}
-
-		.summary-cost {
-			float: left;
-			margin-bottom: 0;
-
-
-
-		}
-	}
-
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,50 +1,86 @@
 {% extends "layout.njk" %} {% block content %}
-<div class="container">
-  <div class="page-card">
-    <div class="card-header">
-      <h3><i class="icon-order ml-2"></i>طلباتي السابقة</h3>
+<section class="common-section">
+  <div class="section-content">
+    <div class="container">
+     
+      <div class="cart-content order-content">
+        <div class="section-title order-title">
+         <h1> طلبك</h1>
+        </div>
+        <div class="cart-item">
+          <h1 class="item-store">  باقات غداء العمل  #1</h1>
+          <div class="business-infro">
+            <div class="days">
+              <p class="days-text">عدد الأيام</p>
+              <p>20</p>
+            </div>
+            <div class="number">
+              <p class="number-text">عدد الوجبات</p>
+              <p>2</p>
+            </div>
+            <div class="type">
+              <p class="type-text">نوع الوجبات</p>
+              <p>مشكل</p>
+            </div>
+            <div class="price">
+              <p class="price-meal">820 <span>ريال</span></p>
+            </div>
+          </div>
+        
     </div>
+    
+    <div class="order-details">
+      <div class="section-title order-title">
+        <h1> تفاصيل الطلب</h1>
+       </div>
+       <div class="input-names">
+       <div class="form-contact">
+        <input
+          type="text"
+          class="form-control  form-orders"
+          placeholder=" الاسم الأول "
+        />
+      </div>
+       <div class="form-contact  ">
+        <input
+          type="text"
+          class="form-control form-orders"
+          placeholder=" الاسم الاخير "
+        />
+      </div>
+    </div>
+       <div class="options-list">
+         <select name="" id="country" style="background-image: url('assets/images/down-arrow.svg' );" >
+           <option value="">المملكة العربية السعودية</option>
+           <option value=""></option>
+           <option value=""></option>
+         </select>
+         <select name="" id="cites" style="background-image: url('assets/images/down-arrow.svg' );">
+           <option value="">  المدينة</option>
+           <option value=""></option>
+           <option value=""></option>
+         </select>
+       
+    </div>
+   
+    <div class="form-contact  ">
+      <input
+        type="text"
+        class="form-control form-adders"
+        placeholder="  العنوان "
+      />
+    </div>
+    <textarea class="order-notes" rows="4" cols="80" placeholder="الملاحظات"></textarea>
 
-    <div class="card-content">
-      <div class="cart-item orders-item">
-        <h4 class="item-store">
-          كرم الشام
-          <p><time> 3:07 PM</time> <time>12/02/2021</time></p>
-        </h4>
-        <p class="item-info">
-          <img src="assets/images/sandwich.png" />ساندوتش دجاج بالكاري لارج + نص
-          فرخه مشوية + 4 فت شاورما 4 فت شاورما4 فت شاورما <span> 150 ج.م </span>
-        </p>
-        <span class="item-area">شارع 20 أحمد فهمي - ميامي - الإسكندرية</span>
-      </div>
-      <div class="cart-item orders-item">
-        <h4 class="item-store">
-          عيش وملح
-          <p><time>3:07 PM</time> <time>12/02/2021</time></p>
-        </h4>
-        <p class="item-info">
-          <img src="assets/images/order-fish.png" />ساندوتش دجاج بالكاري لارج +
-          نص فرخه مشوية + 4 فت شاورما 4 فت شاورما4 فت شاورما
-          <span> 250 ج.م </span>
-        </p>
-        <span class="item-area">
-          شارع 45 عبدالرازق محمد - عصافرة - الاسكندرية
-        </span>
-      </div>
-      <div class="cart-item orders-item">
-        <h4 class="item-store">
-          الريف الدمشقي
-          <p><time>3:07 PM</time> <time>12/02/2021</time></p>
-        </h4>
-        <p class="item-info">
-          <img src="assets/images/orders-fish2.png" />ساندوتش دجاج بالكاري لارج
-          + نص فرخه مشوية + 4 فت شاورما 4 فت شاورما4 فت شاورما
-          <span> 450 ج.م </span>
-        </p>
-        <span class="item-area"> شارع 20 احمد كريم - منتزه - الاسكندرية </span>
-      </div>
+    <div class="btn-orders">   
+      <button type="submit" class="btn btn-main"> اتمام الطلب</button>
+</div>
+  </div>
+
     </div>
   </div>
 </div>
+    
+</section>
 
 {% endblock %}
